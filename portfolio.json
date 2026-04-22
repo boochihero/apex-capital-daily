@@ -1,0 +1,16 @@
+{
+  "initialized": "2026-04-23",
+  "cash": 50000,
+  "holdings": [],
+  "total_value": 50000,
+  "total_pnl": 0,
+  "total_pnl_pct": "0.00%",
+  "rules": {
+    "max_position_pct": 0.30,
+    "max_holdings": 3,
+    "stop_loss_pct": -0.05,
+    "take_profit_pct": 0.08,
+    "exclude_limit_up_at_open": true
+  },
+  "trade_log": []
+}
