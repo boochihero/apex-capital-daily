@@ -14,7 +14,7 @@
     {
       "code": "600590",
       "name": "泰豪科技",
-      "buy_price": 18.20,
+      "buy_price": 18.2,
       "quantity": 800,
       "cost": 14560,
       "buy_date": "2026-04-23",
@@ -30,11 +30,11 @@
       "reason": "船舶军工主线，主力1130万，与泰豪形成板块共振"
     }
   ],
-  "total_value": 50000,
-  "total_pnl": 0,
+  "total_value": 50024.0,
+  "total_pnl": 24.0,
   "total_pnl_pct": "0.00%",
   "rules": {
-    "max_position_pct": 0.30,
+    "max_position_pct": 0.3,
     "max_holdings": 3,
     "stop_loss_pct": -0.05,
     "take_profit_pct": 0.08,
@@ -57,7 +57,7 @@
       "action": "BUY",
       "code": "600590",
       "name": "泰豪科技",
-      "price": 18.20,
+      "price": 18.2,
       "quantity": 800,
       "amount": 14560
     },
