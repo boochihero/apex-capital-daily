@@ -1,7 +1,35 @@
 {
   "initialized": "2026-04-23",
-  "cash": 50000,
-  "holdings": [],
+  "cash": 11225,
+  "holdings": [
+    {
+      "code": "000338",
+      "name": "潍柴动力",
+      "buy_price": 29.39,
+      "quantity": 400,
+      "cost": 11756,
+      "buy_date": "2026-04-23",
+      "reason": "主力净流入最强2998万，大盘权重机械装备主线，EMA多头排列"
+    },
+    {
+      "code": "600590",
+      "name": "泰豪科技",
+      "buy_price": 18.20,
+      "quantity": 800,
+      "cost": 14560,
+      "buy_date": "2026-04-23",
+      "reason": "军工电力板块，主力1428万介入，BOLL上轨突破"
+    },
+    {
+      "code": "600482",
+      "name": "中国动力",
+      "buy_price": 41.53,
+      "quantity": 300,
+      "cost": 12459,
+      "buy_date": "2026-04-23",
+      "reason": "船舶军工主线，主力1130万，与泰豪形成板块共振"
+    }
+  ],
   "total_value": 50000,
   "total_pnl": 0,
   "total_pnl_pct": "0.00%",
@@ -12,5 +40,36 @@
     "take_profit_pct": 0.08,
     "exclude_limit_up_at_open": true
   },
-  "trade_log": []
+  "trade_log": [
+    {
+      "date": "2026-04-23",
+      "time": "09:28",
+      "action": "BUY",
+      "code": "000338",
+      "name": "潍柴动力",
+      "price": 29.39,
+      "quantity": 400,
+      "amount": 11756
+    },
+    {
+      "date": "2026-04-23",
+      "time": "09:28",
+      "action": "BUY",
+      "code": "600590",
+      "name": "泰豪科技",
+      "price": 18.20,
+      "quantity": 800,
+      "amount": 14560
+    },
+    {
+      "date": "2026-04-23",
+      "time": "09:28",
+      "action": "BUY",
+      "code": "600482",
+      "name": "中国动力",
+      "price": 41.53,
+      "quantity": 300,
+      "amount": 12459
+    }
+  ]
 }
