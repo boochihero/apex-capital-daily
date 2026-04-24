@@ -10,9 +10,9 @@
       "cost": 11756,
       "buy_date": "2026-04-23",
       "reason": "主力净流入最强2998万，大盘权重机械装备主线，EMA多头排列",
-      "current_price": 29.4,
-      "pnl_pct": 0.03,
-      "market_value": 11760.0
+      "current_price": 29.67,
+      "pnl_pct": 0.95,
+      "market_value": 11868.0
     },
     {
       "code": "600590",
@@ -22,9 +22,9 @@
       "cost": 14560,
       "buy_date": "2026-04-23",
       "reason": "军工电力板块，主力1428万介入，BOLL上轨突破",
-      "current_price": 17.55,
-      "pnl_pct": -3.57,
-      "market_value": 14040.0
+      "current_price": 17.2,
+      "pnl_pct": -5.49,
+      "market_value": 13760.0
     },
     {
       "code": "600482",
@@ -34,14 +34,14 @@
       "cost": 12459,
       "buy_date": "2026-04-23",
       "reason": "船舶军工主线，主力1130万，与泰豪形成板块共振",
-      "current_price": 42.37,
-      "pnl_pct": 2.02,
-      "market_value": 12711.0
+      "current_price": 43.06,
+      "pnl_pct": 3.68,
+      "market_value": 12918.0
     }
   ],
-  "total_value": 49736.0,
-  "total_pnl": -264.0,
-  "total_pnl_pct": "-0.53%",
+  "total_value": 49771.0,
+  "total_pnl": -229.0,
+  "total_pnl_pct": "-0.46%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -81,5 +81,5 @@
       "amount": 12459
     }
   ],
-  "last_check": "2026-04-23 14:30"
+  "last_check": "2026-04-24 09:28"
 }
