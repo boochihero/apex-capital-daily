@@ -1,6 +1,6 @@
 {
   "initialized": "2026-04-23",
-  "cash": 11225,
+  "cash": 24873.0,
   "holdings": [
     {
       "code": "000338",
@@ -10,21 +10,9 @@
       "cost": 11756,
       "buy_date": "2026-04-23",
       "reason": "主力净流入最强2998万，大盘权重机械装备主线，EMA多头排列",
-      "current_price": 29.67,
-      "pnl_pct": 0.95,
-      "market_value": 11868.0
-    },
-    {
-      "code": "600590",
-      "name": "泰豪科技",
-      "buy_price": 18.2,
-      "quantity": 800,
-      "cost": 14560,
-      "buy_date": "2026-04-23",
-      "reason": "军工电力板块，主力1428万介入，BOLL上轨突破",
-      "current_price": 17.2,
-      "pnl_pct": -5.49,
-      "market_value": 13760.0
+      "current_price": 29.4,
+      "pnl_pct": 0.03,
+      "market_value": 11760.0
     },
     {
       "code": "600482",
@@ -34,12 +22,12 @@
       "cost": 12459,
       "buy_date": "2026-04-23",
       "reason": "船舶军工主线，主力1130万，与泰豪形成板块共振",
-      "current_price": 43.06,
-      "pnl_pct": 3.68,
-      "market_value": 12918.0
+      "current_price": 39.9,
+      "pnl_pct": -3.92,
+      "market_value": 11970.0
     }
   ],
-  "total_value": 49771.0,
+  "total_value": 48603.0,
   "total_pnl": -229.0,
   "total_pnl_pct": "-0.46%",
   "rules": {
@@ -79,7 +67,18 @@
       "price": 41.53,
       "quantity": 300,
       "amount": 12459
+    },
+    {
+      "date": "2026-04-24",
+      "time": "10:00",
+      "action": "SELL_STOP_LOSS",
+      "code": "600590",
+      "name": "泰豪科技",
+      "price": 17.06,
+      "quantity": 800,
+      "amount": 13648.0,
+      "pnl_pct": -6.26
     }
   ],
-  "last_check": "2026-04-24 09:28"
+  "last_check": "2026-04-24 10:00"
 }
