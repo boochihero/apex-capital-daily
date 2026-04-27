@@ -1,6 +1,6 @@
 {
   "initialized": "2026-04-23",
-  "cash": 14701.0,
+  "cash": 26476.0,
   "holdings": [
     {
       "code": "000338",
@@ -10,21 +10,9 @@
       "cost": 11756,
       "buy_date": "2026-04-23",
       "reason": "主力净流入最强2998万，大盘权重机械装备主线，EMA多头排列",
-      "current_price": 29.72,
-      "pnl_pct": 1.12,
-      "market_value": 11888.0
-    },
-    {
-      "code": "600482",
-      "name": "中国动力",
-      "buy_price": 41.53,
-      "quantity": 300,
-      "cost": 12459,
-      "buy_date": "2026-04-23",
-      "reason": "船舶军工主线，主力1130万，与泰豪形成板块共振",
-      "current_price": 40.39,
-      "pnl_pct": -2.74,
-      "market_value": 12117.0
+      "current_price": 30.05,
+      "pnl_pct": 2.25,
+      "market_value": 12020.0
     },
     {
       "code": "002156",
@@ -34,14 +22,14 @@
       "cost": 10172,
       "buy_date": "2026-04-27",
       "reason": "AI算力主线，半导体封测龙头，主力净流入3645万居主板第一，EMA三线多头排列，科创50强势共振",
-      "current_price": 50.86,
-      "pnl_pct": 0.0,
-      "market_value": 10172.0
+      "current_price": 50.49,
+      "pnl_pct": -0.73,
+      "market_value": 10098.0
     }
   ],
-  "total_value": 48878.0,
-  "total_pnl": -44.0,
-  "total_pnl_pct": "-0.09%",
+  "total_value": 48594.0,
+  "total_pnl": -406.0,
+  "total_pnl_pct": "-0.83%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -100,7 +88,18 @@
       "price": 50.86,
       "quantity": 200,
       "amount": 10172
+    },
+    {
+      "date": "2026-04-27",
+      "time": "10:00",
+      "action": "SELL_STOP_LOSS",
+      "code": "600482",
+      "name": "中国动力",
+      "price": 39.25,
+      "quantity": 300,
+      "amount": 11775.0,
+      "pnl_pct": -5.49
     }
   ],
-  "last_check": "2026-04-27 09:28"
+  "last_check": "2026-04-27 10:00"
 }
