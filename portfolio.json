@@ -10,8 +10,8 @@
       "cost": 11756,
       "buy_date": "2026-04-23",
       "reason": "主力净流入最强2998万，大盘权重机械装备主线，EMA多头排列",
-      "current_price": 30.0,
-      "pnl_pct": 2.08,
+      "current_price": 30.00,
+      "pnl_pct": 2.07,
       "market_value": 12000.0
     },
     {
@@ -22,9 +22,9 @@
       "cost": 10172,
       "buy_date": "2026-04-27",
       "reason": "AI算力主线，半导体封测龙头，主力净流入3645万居主板第一，EMA三线多头排列，科创50强势共振",
-      "current_price": 50.07,
-      "pnl_pct": -1.55,
-      "market_value": 10014.0
+      "current_price": 49.30,
+      "pnl_pct": -3.07,
+      "market_value": 9860.0
     },
     {
       "code": "000776",
@@ -34,14 +34,14 @@
       "cost": 12606,
       "buy_date": "2026-04-28",
       "reason": "券商主线领涨，主力净流入4363万，PE=10.5低估，大盘反弹弹性强",
-      "current_price": 21.08,
-      "pnl_pct": 0.33,
-      "market_value": 12648.0
+      "current_price": 21.09,
+      "pnl_pct": 0.38,
+      "market_value": 12654.0
     }
   ],
-  "total_value": 48532.0,
-  "total_pnl": -396.0,
-  "total_pnl_pct": "-0.81%",
+  "total_value": 48384.0,
+  "total_pnl": -1616.0,
+  "total_pnl_pct": "-3.23%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -123,5 +123,5 @@
       "amount": 12606
     }
   ],
-  "last_check": "2026-04-28 14:30"
+  "last_check": "2026-04-29 09:28"
 }
