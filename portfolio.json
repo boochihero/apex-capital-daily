@@ -1,6 +1,6 @@
 {
   "initialized": "2026-04-23",
-  "cash": 26742.0,
+  "cash": 12314.0,
   "holdings": [
     {
       "code": "002156",
@@ -25,11 +25,23 @@
       "current_price": 21.23,
       "pnl_pct": 1.05,
       "market_value": 12738.0
+    },
+    {
+      "code": "002281",
+      "name": "光迅科技",
+      "buy_price": 144.28,
+      "quantity": 100,
+      "cost": 14428,
+      "buy_date": "2026-05-05",
+      "reason": "AI算力光通信龙头，主板主力净流入第一（12.6亿），科创50大涨共振，涨幅8.59%未涨停可追",
+      "current_price": 144.28,
+      "pnl_pct": 0.0,
+      "market_value": 14428.0
     }
   ],
   "total_value": 49834.0,
   "total_pnl": 314.0,
-  "total_pnl_pct": "1.38%",
+  "total_pnl_pct": "0.63%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -120,7 +132,17 @@
       "quantity": 400,
       "amount": 12872.0,
       "pnl_pct": 9.49
+    },
+    {
+      "date": "2026-05-05",
+      "time": "09:28",
+      "action": "BUY",
+      "code": "002281",
+      "name": "光迅科技",
+      "price": 144.28,
+      "quantity": 100,
+      "amount": 14428
     }
   ],
-  "last_check": "2026-05-04 14:30"
+  "last_check": "2026-05-05 09:28"
 }
