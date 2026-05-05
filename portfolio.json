@@ -41,7 +41,7 @@
   ],
   "total_value": 49834.0,
   "total_pnl": 314.0,
-  "total_pnl_pct": "0.63%",
+  "total_pnl_pct": "0.84%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -144,5 +144,5 @@
       "amount": 14428
     }
   ],
-  "last_check": "2026-05-05 09:28"
+  "last_check": "2026-05-05 10:00"
 }
