@@ -1,19 +1,7 @@
 {
   "initialized": "2026-04-23",
-  "cash": 12314.0,
+  "cash": 23704.0,
   "holdings": [
-    {
-      "code": "002156",
-      "name": "通富微电",
-      "buy_price": 50.86,
-      "quantity": 200,
-      "cost": 10172,
-      "buy_date": "2026-04-27",
-      "reason": "AI算力主线，半导体封测龙头，主力净流入3645万居主板第一，EMA三线多头排列，科创50强势共振",
-      "current_price": 56.95,
-      "pnl_pct": 12.00,
-      "market_value": 11390.0
-    },
     {
       "code": "000776",
       "name": "广发证券",
@@ -22,9 +10,9 @@
       "cost": 12606,
       "buy_date": "2026-04-28",
       "reason": "券商主线领涨，主力净流入4363万，PE=10.5低估，大盘反弹弹性强",
-      "current_price": 21.12,
-      "pnl_pct": 0.52,
-      "market_value": 12672.0
+      "current_price": 21.21,
+      "pnl_pct": 0.95,
+      "market_value": 12726.0
     },
     {
       "code": "002281",
@@ -34,12 +22,12 @@
       "cost": 14428,
       "buy_date": "2026-05-05",
       "reason": "AI算力光通信龙头，主板主力净流入第一（12.6亿），科创50大涨共振",
-      "current_price": 147.16,
-      "pnl_pct": 2.00,
-      "market_value": 14716.0
+      "current_price": 154.5,
+      "pnl_pct": 7.08,
+      "market_value": 15450.0
     }
   ],
-  "total_value": 51092.0,
+  "total_value": 51880.0,
   "total_pnl": 1092.0,
   "total_pnl_pct": "2.18%",
   "rules": {
@@ -50,15 +38,110 @@
     "exclude_limit_up_at_open": true
   },
   "trade_log": [
-    {"date":"2026-04-23","time":"09:28","action":"BUY","code":"000338","name":"潍柴动力","price":29.39,"quantity":400,"amount":11756},
-    {"date":"2026-04-23","time":"09:28","action":"BUY","code":"600590","name":"泰豪科技","price":18.2,"quantity":800,"amount":14560},
-    {"date":"2026-04-23","time":"09:28","action":"BUY","code":"600482","name":"中国动力","price":41.53,"quantity":300,"amount":12459},
-    {"date":"2026-04-24","time":"10:00","action":"SELL_STOP_LOSS","code":"600590","name":"泰豪科技","price":17.06,"quantity":800,"amount":13648.0,"pnl_pct":-6.26},
-    {"date":"2026-04-27","time":"09:28","action":"BUY","code":"002156","name":"通富微电","price":50.86,"quantity":200,"amount":10172},
-    {"date":"2026-04-27","time":"10:00","action":"SELL_STOP_LOSS","code":"600482","name":"中国动力","price":39.25,"quantity":300,"amount":11775.0,"pnl_pct":-5.49},
-    {"date":"2026-04-28","time":"09:28","action":"BUY","code":"000776","name":"广发证券","price":21.01,"quantity":600,"amount":12606},
-    {"date":"2026-04-30","time":"10:00","action":"SELL_TAKE_PROFIT","code":"000338","name":"潍柴动力","price":32.18,"quantity":400,"amount":12872.0,"pnl_pct":9.49},
-    {"date":"2026-05-05","time":"09:28","action":"BUY","code":"002281","name":"光迅科技","price":144.28,"quantity":100,"amount":14428}
+    {
+      "date": "2026-04-23",
+      "time": "09:28",
+      "action": "BUY",
+      "code": "000338",
+      "name": "潍柴动力",
+      "price": 29.39,
+      "quantity": 400,
+      "amount": 11756
+    },
+    {
+      "date": "2026-04-23",
+      "time": "09:28",
+      "action": "BUY",
+      "code": "600590",
+      "name": "泰豪科技",
+      "price": 18.2,
+      "quantity": 800,
+      "amount": 14560
+    },
+    {
+      "date": "2026-04-23",
+      "time": "09:28",
+      "action": "BUY",
+      "code": "600482",
+      "name": "中国动力",
+      "price": 41.53,
+      "quantity": 300,
+      "amount": 12459
+    },
+    {
+      "date": "2026-04-24",
+      "time": "10:00",
+      "action": "SELL_STOP_LOSS",
+      "code": "600590",
+      "name": "泰豪科技",
+      "price": 17.06,
+      "quantity": 800,
+      "amount": 13648.0,
+      "pnl_pct": -6.26
+    },
+    {
+      "date": "2026-04-27",
+      "time": "09:28",
+      "action": "BUY",
+      "code": "002156",
+      "name": "通富微电",
+      "price": 50.86,
+      "quantity": 200,
+      "amount": 10172
+    },
+    {
+      "date": "2026-04-27",
+      "time": "10:00",
+      "action": "SELL_STOP_LOSS",
+      "code": "600482",
+      "name": "中国动力",
+      "price": 39.25,
+      "quantity": 300,
+      "amount": 11775.0,
+      "pnl_pct": -5.49
+    },
+    {
+      "date": "2026-04-28",
+      "time": "09:28",
+      "action": "BUY",
+      "code": "000776",
+      "name": "广发证券",
+      "price": 21.01,
+      "quantity": 600,
+      "amount": 12606
+    },
+    {
+      "date": "2026-04-30",
+      "time": "10:00",
+      "action": "SELL_TAKE_PROFIT",
+      "code": "000338",
+      "name": "潍柴动力",
+      "price": 32.18,
+      "quantity": 400,
+      "amount": 12872.0,
+      "pnl_pct": 9.49
+    },
+    {
+      "date": "2026-05-05",
+      "time": "09:28",
+      "action": "BUY",
+      "code": "002281",
+      "name": "光迅科技",
+      "price": 144.28,
+      "quantity": 100,
+      "amount": 14428
+    },
+    {
+      "date": "2026-05-06",
+      "time": "10:00",
+      "action": "SELL_TAKE_PROFIT",
+      "code": "002156",
+      "name": "通富微电",
+      "price": 56.95,
+      "quantity": 200,
+      "amount": 11390.0,
+      "pnl_pct": 11.97
+    }
   ],
-  "last_check": "2026-05-06 09:28"
+  "last_check": "2026-05-06 10:00"
 }
