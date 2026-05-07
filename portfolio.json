@@ -1,6 +1,6 @@
 {
   "initialized": "2026-04-23",
-  "cash": 11107.0,
+  "cash": 27587.0,
   "holdings": [
     {
       "code": "000776",
@@ -10,21 +10,9 @@
       "cost": 12606,
       "buy_date": "2026-04-28",
       "reason": "券商主线领涨，主力净流入4363万，PE=10.5低估，大盘反弹弹性强",
-      "current_price": 20.93,
-      "pnl_pct": -0.38,
-      "market_value": 12558.0
-    },
-    {
-      "code": "002281",
-      "name": "光迅科技",
-      "buy_price": 144.28,
-      "quantity": 100,
-      "cost": 14428,
-      "buy_date": "2026-05-05",
-      "reason": "AI算力光通信龙头，主板主力净流入第一（12.6亿），科创50大涨共振",
-      "current_price": 154.7,
-      "pnl_pct": 7.22,
-      "market_value": 15470.0
+      "current_price": 21.14,
+      "pnl_pct": 0.62,
+      "market_value": 12684.0
     },
     {
       "code": "603738",
@@ -39,7 +27,7 @@
       "market_value": 12822.0
     }
   ],
-  "total_value": 51957.0,
+  "total_value": 53093.0,
   "total_pnl": 1957.0,
   "total_pnl_pct": "3.91%",
   "rules": {
@@ -163,7 +151,18 @@
       "price": 41.99,
       "quantity": 300,
       "amount": 12597
+    },
+    {
+      "date": "2026-05-07",
+      "time": "14:30",
+      "action": "SELL_TAKE_PROFIT",
+      "code": "002281",
+      "name": "光迅科技",
+      "price": 164.8,
+      "quantity": 100,
+      "amount": 16480.0,
+      "pnl_pct": 14.22
     }
   ],
-  "last_check": "2026-05-07 10:00"
+  "last_check": "2026-05-07 06:30"
 }
