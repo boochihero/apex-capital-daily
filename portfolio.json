@@ -1,6 +1,6 @@
 {
   "initialized": "2026-04-23",
-  "cash": 27587.0,
+  "cash": 41690.0,
   "holdings": [
     {
       "code": "000776",
@@ -10,24 +10,12 @@
       "cost": 12606,
       "buy_date": "2026-04-28",
       "reason": "券商主线领涨，主力净流入4363万，PE=10.5低估，大盘反弹弹性强",
-      "current_price": 21.14,
-      "pnl_pct": 0.62,
-      "market_value": 12684.0
-    },
-    {
-      "code": "603738",
-      "name": "泰晶科技",
-      "buy_price": 41.99,
-      "quantity": 300,
-      "cost": 12597,
-      "buy_date": "2026-05-07",
-      "reason": "晶振AI通信龙头，主力净流入2738万，EMA多头排列共振，算力通信主线共振",
-      "current_price": 42.74,
-      "pnl_pct": 1.79,
-      "market_value": 12822.0
+      "current_price": 21.1,
+      "pnl_pct": 0.43,
+      "market_value": 12660.0
     }
   ],
-  "total_value": 53093.0,
+  "total_value": 54350.0,
   "total_pnl": 1957.0,
   "total_pnl_pct": "3.91%",
   "rules": {
@@ -162,7 +150,18 @@
       "quantity": 100,
       "amount": 16480.0,
       "pnl_pct": 14.22
+    },
+    {
+      "date": "2026-05-08",
+      "time": "10:00",
+      "action": "SELL_TAKE_PROFIT",
+      "code": "603738",
+      "name": "泰晶科技",
+      "price": 47.01,
+      "quantity": 300,
+      "amount": 14103.0,
+      "pnl_pct": 11.96
     }
   ],
-  "last_check": "2026-05-07 06:30"
+  "last_check": "2026-05-08 10:00"
 }
