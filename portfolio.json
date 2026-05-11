@@ -1,6 +1,6 @@
 {
   "initialized": "2026-04-23",
-  "cash": 15684.0,
+  "cash": 29688.0,
   "holdings": [
     {
       "code": "000776",
@@ -25,23 +25,11 @@
       "current_price": 60.11,
       "pnl_pct": 0.17,
       "market_value": 12022.0
-    },
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "buy_price": 350.1,
-      "quantity": 40,
-      "cost": 14004,
-      "buy_date": "2026-05-11",
-      "reason": "国产存储芯片龙头，主力净流入6620万（主板最高），半导体AI主线核心标的",
-      "current_price": 363.43,
-      "pnl_pct": 3.81,
-      "market_value": 14537.2
     }
   ],
-  "total_value": 54777.2,
-  "total_pnl": 2939.0,
-  "total_pnl_pct": "5.73%",
+  "total_value": 54244.0,
+  "total_pnl": 4244.0,
+  "total_pnl_pct": "8.49%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -195,16 +183,6 @@
       "price": 60.01,
       "quantity": 200,
       "amount": 12002
-    },
-    {
-      "date": "2026-05-11",
-      "time": "09:28",
-      "action": "BUY",
-      "code": "603986",
-      "name": "兆易创新",
-      "price": 350.1,
-      "quantity": 40,
-      "amount": 14004
     }
   ],
   "last_check": "2026-05-11 10:00",
@@ -218,10 +196,10 @@
     },
     {
       "date": "2026-05-11",
-      "total_value": 54266.0,
-      "market_value": 38582.0,
-      "cash": 15684.0,
-      "holdings_count": 3
+      "total_value": 54244.0,
+      "market_value": 24556.0,
+      "cash": 29688.0,
+      "holdings_count": 2
     }
   ]
 }
