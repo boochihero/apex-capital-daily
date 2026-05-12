@@ -1,6 +1,6 @@
 {
   "initialized": "2026-04-23",
-  "cash": 15684.0,
+  "cash": 29688.0,
   "holdings": [
     {
       "code": "000776",
@@ -195,16 +195,6 @@
       "price": 60.01,
       "quantity": 200,
       "amount": 12002
-    },
-    {
-      "date": "2026-05-11",
-      "time": "09:28",
-      "action": "BUY",
-      "code": "603986",
-      "name": "兆易创新",
-      "price": 350.1,
-      "quantity": 40,
-      "amount": 14004
     }
   ],
   "last_check": "2026-05-12 06:30",
