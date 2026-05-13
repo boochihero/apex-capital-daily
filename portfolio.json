@@ -1,6 +1,6 @@
 {
   "initialized": "2026-04-23",
-  "cash": 29688.0,
+  "cash": 20368.0,
   "holdings": [
     {
       "code": "000776",
@@ -25,6 +25,18 @@
       "current_price": 59.48,
       "pnl_pct": -0.88,
       "market_value": 11896.0
+    },
+    {
+      "code": "600183",
+      "name": "生益科技",
+      "buy_price": 93.2,
+      "quantity": 100,
+      "cost": 9320.0,
+      "buy_date": "2026-05-13",
+      "reason": "PCB/CCL材料主线，主力净流入2.75亿（全市场最强），突破BOLL上轨，科技供应链共振",
+      "current_price": 93.2,
+      "pnl_pct": 0.0,
+      "market_value": 9320.0
     }
   ],
   "total_value": 54202.0,
@@ -194,9 +206,19 @@
       "quantity": 40,
       "amount": 14004,
       "note": "作废：40股不满足A股最低100股(1手)规则"
+    },
+    {
+      "date": "2026-05-13",
+      "time": "09:28",
+      "action": "BUY",
+      "code": "600183",
+      "name": "生益科技",
+      "price": 93.2,
+      "quantity": 100,
+      "amount": 9320.0
     }
   ],
-  "last_check": "2026-05-12 15:05",
+  "last_check": "2026-05-13 09:28",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -218,6 +240,13 @@
       "market_value": 24514.0,
       "cash": 29688.0,
       "holdings_count": 2
+    },
+    {
+      "date": "2026-05-13",
+      "total_value": 54202.0,
+      "market_value": 33834.0,
+      "cash": 20368.0,
+      "holdings_count": 3
     }
   ]
 }
