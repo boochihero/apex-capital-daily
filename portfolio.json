@@ -10,9 +10,9 @@
       "cost": 12606,
       "buy_date": "2026-04-28",
       "reason": "券商主线领涨，主力净流入4363万，PE=10.5低估，大盘反弹弹性强",
-      "current_price": 20.78,
-      "pnl_pct": -1.09,
-      "market_value": 12468.0
+      "current_price": 20.57,
+      "pnl_pct": -2.09,
+      "market_value": 12342.0
     },
     {
       "code": "002156",
@@ -34,12 +34,12 @@
       "cost": 9320.0,
       "buy_date": "2026-05-13",
       "reason": "PCB/CCL材料主线，主力净流入2.75亿（全市场最强），突破BOLL上轨，科技供应链共振",
-      "current_price": 94.28,
-      "pnl_pct": 1.16,
-      "market_value": 9428.0
+      "current_price": 94.9,
+      "pnl_pct": 1.82,
+      "market_value": 9490.0
     }
   ],
-  "total_value": 53978.0,
+  "total_value": 53914.0,
   "total_pnl": 3978.0,
   "total_pnl_pct": "7.96%",
   "rules": {
@@ -218,7 +218,7 @@
       "amount": 9320.0
     }
   ],
-  "last_check": "2026-05-14 10:00",
+  "last_check": "2026-05-14 14:30",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -250,8 +250,8 @@
     },
     {
       "date": "2026-05-14",
-      "total_value": 53978.0,
-      "market_value": 33610.0,
+      "total_value": 53914.0,
+      "market_value": 33546.0,
       "cash": 20368.0,
       "holdings_count": 3
     }
