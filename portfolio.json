@@ -10,9 +10,9 @@
       "cost": 12606,
       "buy_date": "2026-04-28",
       "reason": "券商主线领涨，主力净流入4363万，PE=10.5低估，大盘反弹弹性强",
-      "current_price": 20.85,
-      "pnl_pct": -0.76,
-      "market_value": 12510.0
+      "current_price": 20.78,
+      "pnl_pct": -1.09,
+      "market_value": 12468.0
     },
     {
       "code": "002156",
@@ -22,9 +22,9 @@
       "cost": 12002,
       "buy_date": "2026-05-11",
       "reason": "半导体封测主线，主力净流入4654万，科创50+2.88%板块共振，前期操作验证+11.97%",
-      "current_price": 60.93,
-      "pnl_pct": 1.53,
-      "market_value": 12186.0
+      "current_price": 58.57,
+      "pnl_pct": -2.4,
+      "market_value": 11714.0
     },
     {
       "code": "600183",
@@ -34,14 +34,14 @@
       "cost": 9320.0,
       "buy_date": "2026-05-13",
       "reason": "PCB/CCL材料主线，主力净流入2.75亿（全市场最强），突破BOLL上轨，科技供应链共振",
-      "current_price": 98.11,
-      "pnl_pct": 5.27,
-      "market_value": 9811.0
+      "current_price": 94.28,
+      "pnl_pct": 1.16,
+      "market_value": 9428.0
     }
   ],
-  "total_value": 54875.0,
-  "total_pnl": 4875.0,
-  "total_pnl_pct": "9.75%",
+  "total_value": 53978.0,
+  "total_pnl": 3978.0,
+  "total_pnl_pct": "7.96%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -218,7 +218,7 @@
       "amount": 9320.0
     }
   ],
-  "last_check": "2026-05-14 09:28",
+  "last_check": "2026-05-14 10:00",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -250,8 +250,8 @@
     },
     {
       "date": "2026-05-14",
-      "total_value": 54875.0,
-      "market_value": 34507.0,
+      "total_value": 53978.0,
+      "market_value": 33610.0,
       "cash": 20368.0,
       "holdings_count": 3
     }
