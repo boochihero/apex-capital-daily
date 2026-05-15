@@ -1,6 +1,6 @@
 {
   "initialized": "2026-04-23",
-  "cash": 20368.0,
+  "cash": 40385.0,
   "holdings": [
     {
       "code": "000776",
@@ -10,36 +10,12 @@
       "cost": 12606,
       "buy_date": "2026-04-28",
       "reason": "券商主线领涨，主力净流入4363万，PE=10.5低估，大盘反弹弹性强",
-      "current_price": 20.4,
-      "pnl_pct": -2.9,
-      "market_value": 12240.0
-    },
-    {
-      "code": "002156",
-      "name": "通富微电",
-      "buy_price": 60.01,
-      "quantity": 200,
-      "cost": 12002,
-      "buy_date": "2026-05-11",
-      "reason": "半导体封测主线，主力净流入4654万，科创50+2.88%板块共振，前期操作验证+11.97%",
-      "current_price": 58.0,
-      "pnl_pct": -3.35,
-      "market_value": 11600.0
-    },
-    {
-      "code": "600183",
-      "name": "生益科技",
-      "buy_price": 93.2,
-      "quantity": 100,
-      "cost": 9320.0,
-      "buy_date": "2026-05-13",
-      "reason": "PCB/CCL材料主线，主力净流入2.75亿（全市场最强），突破BOLL上轨，科技供应链共振",
-      "current_price": 93.38,
-      "pnl_pct": 0.19,
-      "market_value": 9338.0
+      "current_price": 20.19,
+      "pnl_pct": -3.9,
+      "market_value": 12114.0
     }
   ],
-  "total_value": 53546.0,
+  "total_value": 52499.0,
   "total_pnl": 3978.0,
   "total_pnl_pct": "7.96%",
   "rules": {
@@ -216,9 +192,31 @@
       "price": 93.2,
       "quantity": 100,
       "amount": 9320.0
+    },
+    {
+      "date": "2026-05-15",
+      "time": "10:00",
+      "action": "SELL_STOP_LOSS",
+      "code": "002156",
+      "name": "通富微电",
+      "price": 55.97,
+      "quantity": 200,
+      "amount": 11194.0,
+      "pnl_pct": -6.73
+    },
+    {
+      "date": "2026-05-15",
+      "time": "10:00",
+      "action": "SELL_STOP_LOSS",
+      "code": "600183",
+      "name": "生益科技",
+      "price": 88.23,
+      "quantity": 100,
+      "amount": 8823.0,
+      "pnl_pct": -5.33
     }
   ],
-  "last_check": "2026-05-15 09:28",
+  "last_check": "2026-05-15 10:00",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -257,10 +255,10 @@
     },
     {
       "date": "2026-05-15",
-      "total_value": 53546.0,
-      "market_value": 33178.0,
-      "cash": 20368.0,
-      "holdings_count": 3
+      "total_value": 52499.0,
+      "market_value": 12114.0,
+      "cash": 40385.0,
+      "holdings_count": 1
     }
   ]
 }
