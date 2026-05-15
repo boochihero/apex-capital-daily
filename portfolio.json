@@ -1,21 +1,8 @@
 {
   "initialized": "2026-04-23",
-  "cash": 40385.0,
-  "holdings": [
-    {
-      "code": "000776",
-      "name": "广发证券",
-      "buy_price": 21.01,
-      "quantity": 600,
-      "cost": 12606,
-      "buy_date": "2026-04-28",
-      "reason": "券商主线领涨，主力净流入4363万，PE=10.5低估，大盘反弹弹性强",
-      "current_price": 20.19,
-      "pnl_pct": -3.9,
-      "market_value": 12114.0
-    }
-  ],
-  "total_value": 52499.0,
+  "cash": 52301.0,
+  "holdings": [],
+  "total_value": 52301.0,
   "total_pnl": 3978.0,
   "total_pnl_pct": "7.96%",
   "rules": {
@@ -214,9 +201,20 @@
       "quantity": 100,
       "amount": 8823.0,
       "pnl_pct": -5.33
+    },
+    {
+      "date": "2026-05-15",
+      "time": "14:30",
+      "action": "SELL_STOP_LOSS",
+      "code": "000776",
+      "name": "广发证券",
+      "price": 19.86,
+      "quantity": 600,
+      "amount": 11916.0,
+      "pnl_pct": -5.47
     }
   ],
-  "last_check": "2026-05-15 10:00",
+  "last_check": "2026-05-15 14:30",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -255,10 +253,10 @@
     },
     {
       "date": "2026-05-15",
-      "total_value": 52499.0,
-      "market_value": 12114.0,
-      "cash": 40385.0,
-      "holdings_count": 1
+      "total_value": 52301.0,
+      "market_value": 0,
+      "cash": 52301.0,
+      "holdings_count": 0
     }
   ]
 }
