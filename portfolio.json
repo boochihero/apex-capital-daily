@@ -1,7 +1,16 @@
 {
   "initialized": "2026-04-23",
-  "cash": 52301.0,
-  "holdings": [],
+  "cash": 37069.0,
+  "holdings": [
+    {
+      "code": "002552",
+      "name": "宝鼎科技",
+      "buy_price": 38.08,
+      "quantity": 400,
+      "cost": 15232.0,
+      "buy_date": "2026-05-19"
+    }
+  ],
   "total_value": 52301.0,
   "total_pnl": 3978.0,
   "total_pnl_pct": "7.96%",
@@ -212,9 +221,19 @@
       "quantity": 600,
       "amount": 11916.0,
       "pnl_pct": -5.47
+    },
+    {
+      "date": "2026-05-19",
+      "time": "09:28",
+      "action": "BUY",
+      "code": "002552",
+      "name": "宝鼎科技",
+      "price": 38.08,
+      "quantity": 400,
+      "amount": 15232.0
     }
   ],
-  "last_check": "2026-05-18 15:05",
+  "last_check": "2026-05-19 09:28",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -264,6 +283,13 @@
       "market_value": 0.0,
       "cash": 52301.0,
       "holdings_count": 0
+    },
+    {
+      "date": "2026-05-19",
+      "total_value": 52301.0,
+      "market_value": 15232.0,
+      "cash": 37069.0,
+      "holdings_count": 1
     }
   ]
 }
