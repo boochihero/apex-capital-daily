@@ -8,7 +8,9 @@
       "buy_price": 38.08,
       "quantity": 400,
       "cost": 15232.0,
-      "buy_date": "2026-05-19"
+      "buy_date": "2026-05-19",
+      "close_price": 37.4,
+      "market_value": 14960.0
     },
     {
       "code": "000880",
@@ -16,10 +18,12 @@
       "buy_price": 34.5,
       "quantity": 400,
       "cost": 13800.0,
-      "buy_date": "2026-05-20"
+      "buy_date": "2026-05-20",
+      "close_price": 35.42,
+      "market_value": 14168.0
     }
   ],
-  "total_value": 52297.0,
+  "total_value": 52397.0,
   "total_pnl": 3842.0,
   "total_pnl_pct": "7.89%",
   "rules": {
@@ -251,7 +255,7 @@
       "amount": 13800.0
     }
   ],
-  "last_check": "2026-05-20 14:30",
+  "last_check": "2026-05-20 15:05",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -311,8 +315,8 @@
     },
     {
       "date": "2026-05-20",
-      "total_value": 52481.0,
-      "market_value": 29212.0,
+      "total_value": 52397.0,
+      "market_value": 29128.0,
       "cash": 23269.0,
       "holdings_count": 2
     }
