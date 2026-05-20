@@ -13,13 +13,13 @@
     {
       "code": "000880",
       "name": "潍柴重机",
-      "buy_price": 34.50,
+      "buy_price": 34.5,
       "quantity": 400,
       "cost": 13800.0,
       "buy_date": "2026-05-20"
     }
   ],
-  "total_value": 52481.0,
+  "total_value": 52045.0,
   "total_pnl": 3842.0,
   "total_pnl_pct": "7.89%",
   "rules": {
@@ -246,12 +246,12 @@
       "action": "BUY",
       "code": "000880",
       "name": "潍柴重机",
-      "price": 34.50,
+      "price": 34.5,
       "quantity": 400,
       "amount": 13800.0
     }
   ],
-  "last_check": "2026-05-20 09:28",
+  "last_check": "2026-05-20 10:00",
   "equity_history": [
     {
       "date": "2026-05-08",
