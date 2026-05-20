@@ -19,7 +19,7 @@
       "buy_date": "2026-05-20"
     }
   ],
-  "total_value": 52045.0,
+  "total_value": 52297.0,
   "total_pnl": 3842.0,
   "total_pnl_pct": "7.89%",
   "rules": {
@@ -251,7 +251,7 @@
       "amount": 13800.0
     }
   ],
-  "last_check": "2026-05-20 10:00",
+  "last_check": "2026-05-20 14:30",
   "equity_history": [
     {
       "date": "2026-05-08",
