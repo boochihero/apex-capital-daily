@@ -1,6 +1,6 @@
 {
   "initialized": "2026-04-23",
-  "cash": 37069.0,
+  "cash": 23269.0,
   "holdings": [
     {
       "code": "002552",
@@ -9,11 +9,19 @@
       "quantity": 400,
       "cost": 15232.0,
       "buy_date": "2026-05-19"
+    },
+    {
+      "code": "000880",
+      "name": "潍柴重机",
+      "buy_price": 34.50,
+      "quantity": 400,
+      "cost": 13800.0,
+      "buy_date": "2026-05-20"
     }
   ],
-  "total_value": 52617.0,
-  "total_pnl": 3978.0,
-  "total_pnl_pct": "7.96%",
+  "total_value": 52481.0,
+  "total_pnl": 3842.0,
+  "total_pnl_pct": "7.89%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -231,9 +239,19 @@
       "price": 38.08,
       "quantity": 400,
       "amount": 15232.0
+    },
+    {
+      "date": "2026-05-20",
+      "time": "09:28",
+      "action": "BUY",
+      "code": "000880",
+      "name": "潍柴重机",
+      "price": 34.50,
+      "quantity": 400,
+      "amount": 13800.0
     }
   ],
-  "last_check": "2026-05-19 15:05",
+  "last_check": "2026-05-20 09:28",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -290,6 +308,13 @@
       "market_value": 15548.0,
       "cash": 37069.0,
       "holdings_count": 1
+    },
+    {
+      "date": "2026-05-20",
+      "total_value": 52481.0,
+      "market_value": 29212.0,
+      "cash": 23269.0,
+      "holdings_count": 2
     }
   ]
 }
