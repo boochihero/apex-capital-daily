@@ -20,14 +20,14 @@
       "quantity": 400,
       "cost": 13800.0,
       "buy_date": "2026-05-20",
-      "close_price": 33.84,
-      "market_value": 13536.0,
-      "pnl_pct": -1.91
+      "close_price": 33.13,
+      "market_value": 13252.0,
+      "pnl_pct": -3.97
     }
   ],
-  "total_value": 51543.0,
-  "total_pnl": 787.0,
-  "total_pnl_pct": "1.57%",
+  "total_value": 51259.0,
+  "total_pnl": 1259.0,
+  "total_pnl_pct": "2.52%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -278,7 +278,7 @@
       "pnl_pct": -7.68
     }
   ],
-  "last_check": "2026-05-22 10:00",
+  "last_check": "2026-05-22 14:30",
   "equity_history": [
     {
       "date": "2026-05-08",
