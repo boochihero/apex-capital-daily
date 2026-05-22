@@ -37,8 +37,8 @@
     }
   ],
   "total_value": 50607.0,
-  "total_pnl": 1842.0,
-  "total_pnl_pct": "4.15%",
+  "total_pnl": 787.0,
+  "total_pnl_pct": "1.57%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -357,5 +357,6 @@
       "cash": 7765.0,
       "holdings_count": 3
     }
-  ]
+  ],
+  "initial_capital": 50000
 }
