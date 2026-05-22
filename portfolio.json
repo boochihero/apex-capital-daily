@@ -1,6 +1,6 @@
 {
   "initialized": "2026-04-23",
-  "cash": 7765.0,
+  "cash": 22079.0,
   "holdings": [
     {
       "code": "002552",
@@ -9,9 +9,9 @@
       "quantity": 400,
       "cost": 15232.0,
       "buy_date": "2026-05-19",
-      "close_price": 36.92,
-      "market_value": 14768.0,
-      "pnl_pct": -3.05
+      "close_price": 39.82,
+      "market_value": 15928.0,
+      "pnl_pct": 4.57
     },
     {
       "code": "000880",
@@ -20,23 +20,12 @@
       "quantity": 400,
       "cost": 13800.0,
       "buy_date": "2026-05-20",
-      "close_price": 34.06,
-      "market_value": 13624.0,
-      "pnl_pct": -1.28
-    },
-    {
-      "code": "000100",
-      "name": "TCL科技",
-      "buy_price": 4.56,
-      "quantity": 3400,
-      "cost": 15504.0,
-      "buy_date": "2026-05-21",
-      "close_price": 4.25,
-      "market_value": 14450.0,
-      "pnl_pct": -6.8
+      "close_price": 33.84,
+      "market_value": 13536.0,
+      "pnl_pct": -1.91
     }
   ],
-  "total_value": 50607.0,
+  "total_value": 51543.0,
   "total_pnl": 787.0,
   "total_pnl_pct": "1.57%",
   "rules": {
@@ -276,9 +265,20 @@
       "price": 4.56,
       "quantity": 3400,
       "amount": 15504.0
+    },
+    {
+      "date": "2026-05-22",
+      "time": "10:00",
+      "action": "SELL_STOP_LOSS",
+      "code": "000100",
+      "name": "TCL科技",
+      "price": 4.21,
+      "quantity": 3400,
+      "amount": 14314.0,
+      "pnl_pct": -7.68
     }
   ],
-  "last_check": "2026-05-22 09:28",
+  "last_check": "2026-05-22 10:00",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -352,10 +352,10 @@
     },
     {
       "date": "2026-05-22",
-      "total_value": 50607.0,
-      "market_value": 42842.0,
-      "cash": 7765.0,
-      "holdings_count": 3
+      "total_value": 51543.0,
+      "market_value": 29464.0,
+      "cash": 22079.0,
+      "holdings_count": 2
     }
   ],
   "initial_capital": 50000
