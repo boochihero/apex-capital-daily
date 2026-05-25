@@ -9,9 +9,9 @@
       "quantity": 400,
       "cost": 13800.0,
       "buy_date": "2026-05-20",
-      "close_price": 34.14,
-      "market_value": 13656.0,
-      "pnl_pct": -1.04
+      "close_price": 34.11,
+      "market_value": 13644.0,
+      "pnl_pct": -1.13
     },
     {
       "code": "002138",
@@ -20,12 +20,12 @@
       "quantity": 300,
       "cost": 13677.0,
       "buy_date": "2026-05-25",
-      "close_price": 45.09,
-      "market_value": 13527.0,
-      "pnl_pct": -1.1
+      "close_price": 45.99,
+      "market_value": 13797.0,
+      "pnl_pct": 0.88
     }
   ],
-  "total_value": 52369.0,
+  "total_value": 52627.0,
   "total_pnl": 2369.0,
   "total_pnl_pct": "4.74%",
   "rules": {
@@ -299,7 +299,7 @@
       "pnl_pct": 10.19
     }
   ],
-  "last_check": "2026-05-25 10:00",
+  "last_check": "2026-05-25 14:30",
   "equity_history": [
     {
       "date": "2026-05-08",
