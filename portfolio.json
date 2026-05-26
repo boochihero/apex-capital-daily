@@ -9,9 +9,9 @@
       "quantity": 400,
       "cost": 13800.0,
       "buy_date": "2026-05-20",
-      "close_price": 34.43,
-      "market_value": 13772.0,
-      "pnl_pct": -0.2
+      "close_price": 33.78,
+      "market_value": 13512.0,
+      "pnl_pct": -2.09
     },
     {
       "code": "002138",
@@ -20,9 +20,9 @@
       "quantity": 300,
       "cost": 13677.0,
       "buy_date": "2026-05-25",
-      "close_price": 45.87,
-      "market_value": 13761.0,
-      "pnl_pct": 0.61
+      "close_price": 44.89,
+      "market_value": 13467.0,
+      "pnl_pct": -1.54
     },
     {
       "code": "002245",
@@ -31,14 +31,14 @@
       "quantity": 700,
       "cost": 14959.0,
       "buy_date": "2026-05-26",
-      "close_price": 21.9,
-      "market_value": 15330.0,
-      "pnl_pct": 2.48
+      "close_price": 21.88,
+      "market_value": 15316.0,
+      "pnl_pct": 2.39
     }
   ],
-  "total_value": 53090.0,
-  "total_pnl": 3090.0,
-  "total_pnl_pct": "6.18%",
+  "total_value": 52522.0,
+  "total_pnl": 2522.0,
+  "total_pnl_pct": "5.04%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -320,7 +320,7 @@
       "amount": 14959.0
     }
   ],
-  "last_check": "2026-05-26 09:28",
+  "last_check": "2026-05-26 10:00",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -417,6 +417,13 @@
       "date": "2026-05-26",
       "total_value": 53090.0,
       "market_value": 42863.0,
+      "cash": 10227.0,
+      "holdings_count": 3
+    },
+    {
+      "date": "2026-05-26_10:00",
+      "total_value": 52522.0,
+      "market_value": 42295.0,
       "cash": 10227.0,
       "holdings_count": 3
     }
