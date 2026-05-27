@@ -9,9 +9,9 @@
       "quantity": 300,
       "cost": 13677.0,
       "buy_date": "2026-05-25",
-      "close_price": 45.55,
-      "market_value": 13665.0,
-      "pnl_pct": -0.09
+      "close_price": 48.39,
+      "market_value": 14517.0,
+      "pnl_pct": 6.14
     },
     {
       "code": "002245",
@@ -20,25 +20,25 @@
       "quantity": 700,
       "cost": 14959.0,
       "buy_date": "2026-05-26",
-      "close_price": 22.00,
-      "market_value": 15400.0,
-      "pnl_pct": 2.95
+      "close_price": 22.42,
+      "market_value": 15694.0,
+      "pnl_pct": 4.91
     },
     {
       "code": "600673",
       "name": "东阳光",
-      "buy_price": 39.00,
+      "buy_price": 39.0,
       "quantity": 400,
       "cost": 15600.0,
       "buy_date": "2026-05-27",
-      "close_price": 39.00,
-      "market_value": 15600.0,
-      "pnl_pct": 0.0
+      "close_price": 39.49,
+      "market_value": 15796.0,
+      "pnl_pct": 1.26
     }
   ],
-  "total_value": 52280.0,
-  "total_pnl": 2280.0,
-  "total_pnl_pct": "4.56%",
+  "total_value": 53622.0,
+  "total_pnl": 3622.0,
+  "total_pnl_pct": "7.24%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -336,12 +336,12 @@
       "action": "BUY",
       "code": "600673",
       "name": "东阳光",
-      "price": 39.00,
+      "price": 39.0,
       "quantity": 400,
       "amount": 15600.0
     }
   ],
-  "last_check": "2026-05-27 09:28",
+  "last_check": "2026-05-27 10:00",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -436,8 +436,8 @@
     },
     {
       "date": "2026-05-27",
-      "total_value": 52280.0,
-      "market_value": 44665.0,
+      "total_value": 53622.0,
+      "market_value": 46007.0,
       "cash": 7615.0,
       "holdings_count": 3
     }
