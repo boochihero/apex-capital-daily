@@ -1,6 +1,6 @@
 {
   "initialized": "2026-04-23",
-  "cash": 36941.0,
+  "cash": 8783.0,
   "holdings": [
     {
       "code": "002245",
@@ -12,6 +12,22 @@
       "close_price": 20.68,
       "market_value": 14476.0,
       "pnl_pct": -3.23
+    },
+    {
+      "code": "000977",
+      "name": "浪潮信息",
+      "buy_price": 66.71,
+      "quantity": 200,
+      "cost": 13342.0,
+      "buy_date": "2026-06-01"
+    },
+    {
+      "code": "000066",
+      "name": "中国长城",
+      "buy_price": 18.52,
+      "quantity": 800,
+      "cost": 14816.0,
+      "buy_date": "2026-06-01"
     }
   ],
   "total_value": 51417.0,
@@ -339,9 +355,29 @@
       "quantity": 400,
       "amount": 14188.0,
       "pnl_pct": -9.05
+    },
+    {
+      "date": "2026-06-01",
+      "time": "09:28",
+      "action": "BUY",
+      "code": "000977",
+      "name": "浪潮信息",
+      "price": 66.71,
+      "quantity": 200,
+      "amount": 13342
+    },
+    {
+      "date": "2026-06-01",
+      "time": "09:28",
+      "action": "BUY",
+      "code": "000066",
+      "name": "中国长城",
+      "price": 18.52,
+      "quantity": 800,
+      "amount": 14816
     }
   ],
-  "last_check": "2026-05-29 15:05",
+  "last_check": "2026-06-01 09:28",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -454,6 +490,13 @@
       "market_value": 14476.0,
       "cash": 36941.0,
       "holdings_count": 1
+    },
+    {
+      "date": "2026-06-01",
+      "total_value": 51417.0,
+      "market_value": 42634.0,
+      "cash": 8783.0,
+      "holdings_count": 3
     }
   ],
   "initial_capital": 50000
