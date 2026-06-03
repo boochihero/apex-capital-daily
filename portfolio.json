@@ -1,6 +1,6 @@
 {
   "initialized": "2026-04-23",
-  "cash": 22629.0,
+  "cash": 9091.0,
   "holdings": [
     {
       "code": "000977",
@@ -23,6 +23,17 @@
       "close_price": 18.09,
       "market_value": 14472.0,
       "pnl_pct": -2.32
+    },
+    {
+      "code": "002156",
+      "name": "通富微电",
+      "buy_price": 67.69,
+      "quantity": 200,
+      "cost": 13538.0,
+      "buy_date": "2026-06-03",
+      "close_price": 67.69,
+      "market_value": 13538.0,
+      "pnl_pct": 0.0
     }
   ],
   "total_value": 50101.0,
@@ -60,7 +71,7 @@
       "date": "2026-04-23",
       "time": "09:28",
       "action": "BUY",
-      "code": "600482",
+      "code": "000482",
       "name": "中国动力",
       "price": 41.53,
       "quantity": 300,
@@ -381,9 +392,19 @@
       "quantity": 700,
       "amount": 13846.0,
       "pnl_pct": -7.44
+    },
+    {
+      "date": "2026-06-03",
+      "time": "09:28",
+      "action": "BUY",
+      "code": "002156",
+      "name": "通富微电",
+      "price": 67.69,
+      "quantity": 200,
+      "amount": 13538.0
     }
   ],
-  "last_check": "2026-06-02 15:05",
+  "last_check": "2026-06-03 09:28",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -510,6 +531,13 @@
       "market_value": 27472.0,
       "cash": 22629.0,
       "holdings_count": 2
+    },
+    {
+      "date": "2026-06-03",
+      "total_value": 50101.0,
+      "market_value": 41010.0,
+      "cash": 9091.0,
+      "holdings_count": 3
     }
   ],
   "initial_capital": 50000
