@@ -1,6 +1,6 @@
 {
   "initialized": "2026-04-23",
-  "cash": 21693.0,
+  "cash": 7077.0,
   "holdings": [
     {
       "code": "000066",
@@ -23,6 +23,17 @@
       "close_price": 71.1,
       "market_value": 14220.0,
       "pnl_pct": 5.04
+    },
+    {
+      "code": "000700",
+      "name": "模塑科技",
+      "buy_price": 18.27,
+      "quantity": 800,
+      "cost": 14616.0,
+      "buy_date": "2026-06-05",
+      "close_price": 18.27,
+      "market_value": 14616.0,
+      "pnl_pct": 0.0
     }
   ],
   "total_value": 50273.0,
@@ -402,9 +413,19 @@
       "quantity": 200,
       "amount": 12602.0,
       "pnl_pct": -5.55
+    },
+    {
+      "date": "2026-06-05",
+      "time": "09:28",
+      "action": "BUY",
+      "code": "000700",
+      "name": "模塑科技",
+      "price": 18.27,
+      "quantity": 800,
+      "amount": 14616.0
     }
   ],
-  "last_check": "2026-06-04 15:05",
+  "last_check": "2026-06-05 09:28",
   "equity_history": [
     {
       "date": "2026-05-08",
