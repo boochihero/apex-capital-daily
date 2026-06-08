@@ -1,22 +1,10 @@
 {
   "initialized": "2026-04-23",
-  "cash": 34701.0,
-  "holdings": [
-    {
-      "code": "002156",
-      "name": "通富微电",
-      "buy_price": 67.69,
-      "quantity": 200,
-      "cost": 13538.0,
-      "buy_date": "2026-06-03",
-      "close_price": 63.0,
-      "market_value": 12600.0,
-      "pnl_pct": -6.93
-    }
-  ],
-  "total_value": 47301.0,
-  "total_pnl": -2699.0,
-  "total_pnl_pct": "-5.40%",
+  "cash": 47541.0,
+  "holdings": [],
+  "total_value": 47541.0,
+  "total_pnl": -2459.0,
+  "total_pnl_pct": "-4.92%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -423,9 +411,20 @@
       "quantity": 800,
       "amount": 13808.0,
       "pnl_pct": -5.53
+    },
+    {
+      "date": "2026-06-08",
+      "time": "10:00",
+      "action": "SELL_STOP_LOSS",
+      "code": "002156",
+      "name": "通富微电",
+      "price": 64.2,
+      "quantity": 200,
+      "amount": 12840.0,
+      "pnl_pct": -5.16
     }
   ],
-  "last_check": "2026-06-08 09:28",
+  "last_check": "2026-06-08 10:00",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -576,10 +575,10 @@
     },
     {
       "date": "2026-06-08",
-      "total_value": 47301.0,
-      "market_value": 12600.0,
-      "cash": 34701.0,
-      "holdings_count": 1
+      "total_value": 47541.0,
+      "market_value": 0,
+      "cash": 47541.0,
+      "holdings_count": 0
     }
   ],
   "initial_capital": 50000
