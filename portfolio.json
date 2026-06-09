@@ -1,6 +1,6 @@
 {
   "initialized": "2026-04-23",
-  "cash": 9131.0,
+  "cash": 21435.0,
   "holdings": [
     {
       "code": "002138",
@@ -9,8 +9,8 @@
       "quantity": 200,
       "buy_date": "2026-06-09",
       "cost": 11600.0,
-      "close_price": 57.0,
-      "market_value": 11400.0
+      "close_price": 60.8,
+      "market_value": 12160.0
     },
     {
       "code": "002056",
@@ -19,23 +19,13 @@
       "quantity": 500,
       "buy_date": "2026-06-09",
       "cost": 13850.0,
-      "close_price": 27.12,
-      "market_value": 13560.0
-    },
-    {
-      "code": "002169",
-      "name": "智光电气",
-      "buy_price": 16.2,
-      "quantity": 800,
-      "buy_date": "2026-06-09",
-      "cost": 12960.0,
-      "close_price": 15.55,
-      "market_value": 12440.0
+      "close_price": 27.84,
+      "market_value": 13920.0
     }
   ],
-  "total_value": 46531.0,
-  "total_pnl": -3469.0,
-  "total_pnl_pct": "-6.94%",
+  "total_value": 47515.0,
+  "total_pnl": -2485.0,
+  "total_pnl_pct": "-4.97%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -483,9 +473,20 @@
       "price": 16.2,
       "quantity": 800,
       "amount": 12960.0
+    },
+    {
+      "date": "2026-06-09",
+      "time": "14:30",
+      "action": "SELL_STOP_LOSS",
+      "code": "002169",
+      "name": "智光电气",
+      "price": 15.38,
+      "quantity": 800,
+      "amount": 12304.0,
+      "pnl_pct": -5.06
     }
   ],
-  "last_check": "2026-06-09 10:00",
+  "last_check": "2026-06-09 14:30",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -643,10 +644,10 @@
     },
     {
       "date": "2026-06-09",
-      "total_value": 46531.0,
-      "market_value": 37400.0,
-      "cash": 9131.0,
-      "holdings_count": 3
+      "total_value": 47515.0,
+      "market_value": 26080.0,
+      "cash": 21435.0,
+      "holdings_count": 2
     }
   ],
   "initial_capital": 50000
