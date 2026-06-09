@@ -5,31 +5,37 @@
     {
       "code": "002138",
       "name": "顺络电子",
-      "buy_price": 58.00,
+      "buy_price": 58.0,
       "quantity": 200,
       "buy_date": "2026-06-09",
-      "cost": 11600.0
+      "cost": 11600.0,
+      "close_price": 57.0,
+      "market_value": 11400.0
     },
     {
       "code": "002056",
       "name": "横店东磁",
-      "buy_price": 27.70,
+      "buy_price": 27.7,
       "quantity": 500,
       "buy_date": "2026-06-09",
-      "cost": 13850.0
+      "cost": 13850.0,
+      "close_price": 27.12,
+      "market_value": 13560.0
     },
     {
       "code": "002169",
       "name": "智光电气",
-      "buy_price": 16.20,
+      "buy_price": 16.2,
       "quantity": 800,
       "buy_date": "2026-06-09",
-      "cost": 12960.0
+      "cost": 12960.0,
+      "close_price": 15.55,
+      "market_value": 12440.0
     }
   ],
-  "total_value": 47541.0,
-  "total_pnl": -2459.0,
-  "total_pnl_pct": "-4.92%",
+  "total_value": 46531.0,
+  "total_pnl": -3469.0,
+  "total_pnl_pct": "-6.94%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -454,7 +460,7 @@
       "action": "BUY",
       "code": "002138",
       "name": "顺络电子",
-      "price": 58.00,
+      "price": 58.0,
       "quantity": 200,
       "amount": 11600.0
     },
@@ -464,7 +470,7 @@
       "action": "BUY",
       "code": "002056",
       "name": "横店东磁",
-      "price": 27.70,
+      "price": 27.7,
       "quantity": 500,
       "amount": 13850.0
     },
@@ -474,12 +480,12 @@
       "action": "BUY",
       "code": "002169",
       "name": "智光电气",
-      "price": 16.20,
+      "price": 16.2,
       "quantity": 800,
       "amount": 12960.0
     }
   ],
-  "last_check": "2026-06-09 09:28",
+  "last_check": "2026-06-09 10:00",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -637,8 +643,8 @@
     },
     {
       "date": "2026-06-09",
-      "total_value": 47541.0,
-      "market_value": 38410.0,
+      "total_value": 46531.0,
+      "market_value": 37400.0,
       "cash": 9131.0,
       "holdings_count": 3
     }
