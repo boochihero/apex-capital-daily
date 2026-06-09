@@ -9,8 +9,8 @@
       "quantity": 200,
       "buy_date": "2026-06-09",
       "cost": 11600.0,
-      "close_price": 60.8,
-      "market_value": 12160.0
+      "close_price": 61.23,
+      "market_value": 12246.0
     },
     {
       "code": "002056",
@@ -19,13 +19,13 @@
       "quantity": 500,
       "buy_date": "2026-06-09",
       "cost": 13850.0,
-      "close_price": 27.84,
-      "market_value": 13920.0
+      "close_price": 27.83,
+      "market_value": 13915.0
     }
   ],
-  "total_value": 47515.0,
-  "total_pnl": -2485.0,
-  "total_pnl_pct": "-4.97%",
+  "total_value": 47596.0,
+  "total_pnl": -2404.0,
+  "total_pnl_pct": "-4.81%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -486,7 +486,7 @@
       "pnl_pct": -5.06
     }
   ],
-  "last_check": "2026-06-09 14:30",
+  "last_check": "2026-06-09 15:05",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -644,8 +644,8 @@
     },
     {
       "date": "2026-06-09",
-      "total_value": 47515.0,
-      "market_value": 26080.0,
+      "total_value": 47596.0,
+      "market_value": 26161.0,
       "cash": 21435.0,
       "holdings_count": 2
     }
