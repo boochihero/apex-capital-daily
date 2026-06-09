@@ -1,7 +1,32 @@
 {
   "initialized": "2026-04-23",
-  "cash": 47541.0,
-  "holdings": [],
+  "cash": 9131.0,
+  "holdings": [
+    {
+      "code": "002138",
+      "name": "顺络电子",
+      "buy_price": 58.00,
+      "quantity": 200,
+      "buy_date": "2026-06-09",
+      "cost": 11600.0
+    },
+    {
+      "code": "002056",
+      "name": "横店东磁",
+      "buy_price": 27.70,
+      "quantity": 500,
+      "buy_date": "2026-06-09",
+      "cost": 13850.0
+    },
+    {
+      "code": "002169",
+      "name": "智光电气",
+      "buy_price": 16.20,
+      "quantity": 800,
+      "buy_date": "2026-06-09",
+      "cost": 12960.0
+    }
+  ],
   "total_value": 47541.0,
   "total_pnl": -2459.0,
   "total_pnl_pct": "-4.92%",
@@ -422,9 +447,39 @@
       "quantity": 200,
       "amount": 12840.0,
       "pnl_pct": -5.16
+    },
+    {
+      "date": "2026-06-09",
+      "time": "09:28",
+      "action": "BUY",
+      "code": "002138",
+      "name": "顺络电子",
+      "price": 58.00,
+      "quantity": 200,
+      "amount": 11600.0
+    },
+    {
+      "date": "2026-06-09",
+      "time": "09:28",
+      "action": "BUY",
+      "code": "002056",
+      "name": "横店东磁",
+      "price": 27.70,
+      "quantity": 500,
+      "amount": 13850.0
+    },
+    {
+      "date": "2026-06-09",
+      "time": "09:28",
+      "action": "BUY",
+      "code": "002169",
+      "name": "智光电气",
+      "price": 16.20,
+      "quantity": 800,
+      "amount": 12960.0
     }
   ],
-  "last_check": "2026-06-08 10:00",
+  "last_check": "2026-06-09 09:28",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -579,6 +634,13 @@
       "market_value": 0,
       "cash": 47541.0,
       "holdings_count": 0
+    },
+    {
+      "date": "2026-06-09",
+      "total_value": 47541.0,
+      "market_value": 38410.0,
+      "cash": 9131.0,
+      "holdings_count": 3
     }
   ],
   "initial_capital": 50000
