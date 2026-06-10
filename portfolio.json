@@ -486,7 +486,7 @@
       "pnl_pct": -5.06
     }
   ],
-  "last_check": "2026-06-09 15:05",
+  "last_check": "2026-06-10 09:28",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -644,6 +644,13 @@
     },
     {
       "date": "2026-06-09",
+      "total_value": 47596.0,
+      "market_value": 26161.0,
+      "cash": 21435.0,
+      "holdings_count": 2
+    },
+    {
+      "date": "2026-06-10",
       "total_value": 47596.0,
       "market_value": 26161.0,
       "cash": 21435.0,
