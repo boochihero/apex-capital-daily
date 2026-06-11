@@ -1,6 +1,6 @@
 {
   "initialized": "2026-04-23",
-  "cash": 8343.0,
+  "cash": 20883.0,
   "holdings": [
     {
       "code": "002138",
@@ -9,18 +9,8 @@
       "quantity": 200,
       "buy_date": "2026-06-09",
       "cost": 11600.0,
-      "close_price": 57.8,
-      "market_value": 11560.0
-    },
-    {
-      "code": "600078",
-      "name": "澄星股份",
-      "buy_price": 13.3,
-      "quantity": 1000,
-      "buy_date": "2026-06-11",
-      "cost": 13300.0,
-      "close_price": 13.3,
-      "market_value": 13300.0
+      "close_price": 55.88,
+      "market_value": 11176.0
     },
     {
       "code": "002025",
@@ -29,13 +19,13 @@
       "quantity": 200,
       "buy_date": "2026-06-11",
       "cost": 12782.0,
-      "close_price": 63.91,
-      "market_value": 12782.0
+      "close_price": 67.86,
+      "market_value": 13572.0
     }
   ],
-  "total_value": 45985.0,
-  "total_pnl": -4015.0,
-  "total_pnl_pct": "-8.03%",
+  "total_value": 45631.0,
+  "total_pnl": -4369.0,
+  "total_pnl_pct": "-8.74%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -525,9 +515,20 @@
       "price": 63.91,
       "quantity": 200,
       "amount": 12782.0
+    },
+    {
+      "date": "2026-06-11",
+      "time": "10:00",
+      "action": "SELL_STOP_LOSS",
+      "code": "600078",
+      "name": "澄星股份",
+      "price": 12.54,
+      "quantity": 1000,
+      "amount": 12540.0,
+      "pnl_pct": -5.71
     }
   ],
-  "last_check": "2026-06-11 09:28",
+  "last_check": "2026-06-11 10:00",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -703,6 +704,13 @@
       "market_value": 37642.0,
       "cash": 8343.0,
       "holdings_count": 3
+    },
+    {
+      "date": "2026-06-11_10:00",
+      "total_value": 45631.0,
+      "market_value": 24748.0,
+      "cash": 20883.0,
+      "holdings_count": 2
     }
   ],
   "initial_capital": 50000
