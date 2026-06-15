@@ -1,6 +1,6 @@
 {
   "initialized": "2026-04-23",
-  "cash": 20239.0,
+  "cash": 8023.0,
   "holdings": [
     {
       "code": "002138",
@@ -9,8 +9,8 @@
       "quantity": 200,
       "buy_date": "2026-06-09",
       "cost": 11600.0,
-      "close_price": 56.16,
-      "market_value": 11232.0
+      "close_price": 57.86,
+      "market_value": 11572.0
     },
     {
       "code": "002025",
@@ -19,13 +19,23 @@
       "quantity": 200,
       "buy_date": "2026-06-11",
       "cost": 12782.0,
-      "close_price": 64.05,
-      "market_value": 12810.0
+      "close_price": 64.61,
+      "market_value": 12922.0
+    },
+    {
+      "code": "601899",
+      "name": "紫金矿业",
+      "buy_price": 30.54,
+      "quantity": 400,
+      "buy_date": "2026-06-15",
+      "cost": 12216.0,
+      "close_price": 30.54,
+      "market_value": 12216.0
     }
   ],
-  "total_value": 44281.0,
-  "total_pnl": -5719.0,
-  "total_pnl_pct": "-11.44%",
+  "total_value": 44733.0,
+  "total_pnl": -5267.0,
+  "total_pnl_pct": "-10.53%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -547,9 +557,19 @@
       "quantity": 400,
       "amount": 11820.0,
       "pnl_pct": -5.17
+    },
+    {
+      "date": "2026-06-15",
+      "time": "09:28",
+      "action": "BUY",
+      "code": "601899",
+      "name": "紫金矿业",
+      "price": 30.54,
+      "quantity": 400,
+      "amount": 12216.0
     }
   ],
-  "last_check": "2026-06-12 15:05",
+  "last_check": "2026-06-15 09:28",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -732,6 +752,13 @@
       "market_value": 24042.0,
       "cash": 20239.0,
       "holdings_count": 2
+    },
+    {
+      "date": "2026-06-15",
+      "total_value": 44733.0,
+      "market_value": 36710.0,
+      "cash": 8023.0,
+      "holdings_count": 3
     }
   ],
   "initial_capital": 50000
