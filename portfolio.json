@@ -9,8 +9,8 @@
       "quantity": 200,
       "buy_date": "2026-06-09",
       "cost": 11600.0,
-      "close_price": 61.66,
-      "market_value": 12332.0
+      "close_price": 61.29,
+      "market_value": 12258.0
     },
     {
       "code": "002025",
@@ -19,8 +19,8 @@
       "quantity": 200,
       "buy_date": "2026-06-11",
       "cost": 12782.0,
-      "close_price": 63.24,
-      "market_value": 12648.0
+      "close_price": 63.12,
+      "market_value": 12624.0
     },
     {
       "code": "601899",
@@ -29,13 +29,13 @@
       "quantity": 400,
       "buy_date": "2026-06-15",
       "cost": 12216.0,
-      "close_price": 30.35,
-      "market_value": 12140.0
+      "close_price": 30.29,
+      "market_value": 12116.0
     }
   ],
-  "total_value": 45143.0,
-  "total_pnl": -4857.0,
-  "total_pnl_pct": "-9.71%",
+  "total_value": 45021.0,
+  "total_pnl": -4979.0,
+  "total_pnl_pct": "-9.96%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -569,7 +569,7 @@
       "amount": 12216.0
     }
   ],
-  "last_check": "2026-06-16 14:30",
+  "last_check": "2026-06-16 15:05",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -762,22 +762,8 @@
     },
     {
       "date": "2026-06-16",
-      "total_value": 46023.0,
-      "market_value": 38000.0,
-      "cash": 8023.0,
-      "holdings_count": 3
-    },
-    {
-      "date": "2026-06-16",
-      "total_value": 45195.0,
-      "market_value": 37172.0,
-      "cash": 8023.0,
-      "holdings_count": 3
-    },
-    {
-      "date": "2026-06-16",
-      "total_value": 45143.0,
-      "market_value": 37120.0,
+      "total_value": 45021.0,
+      "market_value": 36998.0,
       "cash": 8023.0,
       "holdings_count": 3
     }
