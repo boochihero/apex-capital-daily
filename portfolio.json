@@ -1,17 +1,7 @@
 {
   "initialized": "2026-04-23",
-  "cash": 8023.0,
+  "cash": 21291.0,
   "holdings": [
-    {
-      "code": "002138",
-      "name": "顺络电子",
-      "buy_price": 58.0,
-      "quantity": 200,
-      "buy_date": "2026-06-09",
-      "cost": 11600.0,
-      "close_price": 62.48,
-      "market_value": 12496.0
-    },
     {
       "code": "002025",
       "name": "航天电器",
@@ -19,8 +9,8 @@
       "quantity": 200,
       "buy_date": "2026-06-11",
       "cost": 12782.0,
-      "close_price": 63.68,
-      "market_value": 12736.0
+      "close_price": 63.38,
+      "market_value": 12676.0
     },
     {
       "code": "601899",
@@ -29,13 +19,13 @@
       "quantity": 400,
       "buy_date": "2026-06-15",
       "cost": 12216.0,
-      "close_price": 30.79,
-      "market_value": 12316.0
+      "close_price": 30.34,
+      "market_value": 12136.0
     }
   ],
-  "total_value": 45571.0,
-  "total_pnl": -4429.0,
-  "total_pnl_pct": "-8.86%",
+  "total_value": 46103.0,
+  "total_pnl": -3897.0,
+  "total_pnl_pct": "-7.79%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -567,9 +557,20 @@
       "price": 30.54,
       "quantity": 400,
       "amount": 12216.0
+    },
+    {
+      "date": "2026-06-17",
+      "time": "14:30",
+      "action": "SELL_TAKE_PROFIT",
+      "code": "002138",
+      "name": "顺络电子",
+      "price": 66.34,
+      "quantity": 200,
+      "amount": 13268.0,
+      "pnl_pct": 14.38
     }
   ],
-  "last_check": "2026-06-17 10:00",
+  "last_check": "2026-06-17 14:30",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -769,10 +770,10 @@
     },
     {
       "date": "2026-06-17",
-      "total_value": 45571.0,
-      "market_value": 37548.0,
-      "cash": 8023.0,
-      "holdings_count": 3
+      "total_value": 46103.0,
+      "market_value": 24812.0,
+      "cash": 21291.0,
+      "holdings_count": 2
     }
   ],
   "initial_capital": 50000
