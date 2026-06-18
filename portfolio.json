@@ -1,6 +1,6 @@
 {
   "initialized": "2026-04-23",
-  "cash": 21291.0,
+  "cash": 12965.0,
   "holdings": [
     {
       "code": "002025",
@@ -9,8 +9,8 @@
       "quantity": 200,
       "buy_date": "2026-06-11",
       "cost": 12782.0,
-      "close_price": 63.4,
-      "market_value": 12680.0
+      "close_price": 62.8,
+      "market_value": 12560.0
     },
     {
       "code": "601899",
@@ -19,13 +19,23 @@
       "quantity": 400,
       "buy_date": "2026-06-15",
       "cost": 12216.0,
-      "close_price": 30.43,
-      "market_value": 12172.0
+      "close_price": 29.96,
+      "market_value": 11984.0
+    },
+    {
+      "code": "603663",
+      "name": "三祥新材",
+      "buy_price": 83.26,
+      "quantity": 100,
+      "buy_date": "2026-06-18",
+      "cost": 8326.0,
+      "close_price": 83.26,
+      "market_value": 8326.0
     }
   ],
-  "total_value": 46143.0,
-  "total_pnl": -3857.0,
-  "total_pnl_pct": "-7.71%",
+  "total_value": 45835.0,
+  "total_pnl": -4165.0,
+  "total_pnl_pct": "-8.33%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -568,9 +578,19 @@
       "quantity": 200,
       "amount": 13268.0,
       "pnl_pct": 14.38
+    },
+    {
+      "date": "2026-06-18",
+      "time": "09:28",
+      "action": "BUY",
+      "code": "603663",
+      "name": "三祥新材",
+      "price": 83.26,
+      "quantity": 100,
+      "amount": 8326.0
     }
   ],
-  "last_check": "2026-06-17 14:30",
+  "last_check": "2026-06-18 09:28",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -774,6 +794,13 @@
       "market_value": 24852.0,
       "cash": 21291.0,
       "holdings_count": 2
+    },
+    {
+      "date": "2026-06-18",
+      "total_value": 45835.0,
+      "market_value": 32870.0,
+      "cash": 12965.0,
+      "holdings_count": 3
     }
   ],
   "initial_capital": 50000
