@@ -1,41 +1,10 @@
 {
   "initialized": "2026-04-23",
-  "cash": 12965,
-  "holdings": [
-    {
-      "code": "002025",
-      "name": "航天电器",
-      "buy_price": 63.91,
-      "quantity": 200,
-      "buy_date": "2026-06-11",
-      "cost": 12782,
-      "close_price": 59.62,
-      "market_value": 11924.0
-    },
-    {
-      "code": "601899",
-      "name": "紫金矿业",
-      "buy_price": 30.54,
-      "quantity": 400,
-      "buy_date": "2026-06-15",
-      "cost": 12216,
-      "close_price": 29.95,
-      "market_value": 11980.0
-    },
-    {
-      "code": "603663",
-      "name": "三祥新材",
-      "buy_price": 83.26,
-      "quantity": 100,
-      "buy_date": "2026-06-18",
-      "cost": 8326,
-      "close_price": 100.0,
-      "market_value": 10000.0
-    }
-  ],
-  "total_value": 46869.0,
-  "total_pnl": -3131.0,
-  "total_pnl_pct": "-6.26%",
+  "cash": 46635.0,
+  "holdings": [],
+  "total_value": 46635.0,
+  "total_pnl": -3365.0,
+  "total_pnl_pct": "-6.73%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -588,9 +557,42 @@
       "price": 83.26,
       "quantity": 100,
       "amount": 8326
+    },
+    {
+      "date": "2026-06-23",
+      "time": "10:00",
+      "action": "SELL_STOP_LOSS",
+      "code": "002025",
+      "name": "航天电器",
+      "price": 57.57,
+      "quantity": 200,
+      "amount": 11514.0,
+      "pnl_pct": -9.92
+    },
+    {
+      "date": "2026-06-23",
+      "time": "10:00",
+      "action": "SELL_STOP_LOSS",
+      "code": "601899",
+      "name": "紫金矿业",
+      "price": 28.94,
+      "quantity": 400,
+      "amount": 11576.0,
+      "pnl_pct": -5.24
+    },
+    {
+      "date": "2026-06-23",
+      "time": "10:00",
+      "action": "SELL_TAKE_PROFIT",
+      "code": "603663",
+      "name": "三祥新材",
+      "price": 105.8,
+      "quantity": 100,
+      "amount": 10580.0,
+      "pnl_pct": 27.07
     }
   ],
-  "last_check": "2026-06-23 09:28",
+  "last_check": "2026-06-23 10:00",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -811,10 +813,10 @@
     },
     {
       "date": "2026-06-23",
-      "total_value": 46869.0,
-      "market_value": 33904.0,
-      "cash": 12965,
-      "holdings_count": 3
+      "total_value": 46635.0,
+      "market_value": 0,
+      "cash": 46635.0,
+      "holdings_count": 0
     }
   ],
   "initial_capital": 50000
