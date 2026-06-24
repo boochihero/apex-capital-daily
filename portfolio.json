@@ -9,7 +9,7 @@
       "quantity": 700,
       "buy_date": "2026-06-24",
       "cost": 12607.0,
-      "close_price": 18.10,
+      "close_price": 18.1,
       "market_value": 12670.0
     }
   ],
@@ -613,7 +613,7 @@
       "amount": 12607.0
     }
   ],
-  "last_check": "2026-06-24 10:00",
+  "last_check": "2026-06-24 14:30",
   "equity_history": [
     {
       "date": "2026-05-08",
