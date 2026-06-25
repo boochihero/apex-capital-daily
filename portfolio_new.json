@@ -33,8 +33,8 @@
       "market_value": 12495.0
     }
   ],
-  "total_value": 46677,
-  "total_pnl": -3323,
+  "total_value": 46677.0,
+  "total_pnl": -3323.0,
   "total_pnl_pct": "-6.65%",
   "rules": {
     "max_position_pct": 0.3,
@@ -885,13 +885,6 @@
       "market_value": 12649.0,
       "cash": 34028.0,
       "holdings_count": 1
-    },
-    {
-      "date": "2026-06-25",
-      "total_value": 46677,
-      "market_value": 38833,
-      "cash": 7844,
-      "holdings_count": 3
     }
   ],
   "initial_capital": 50000
