@@ -9,8 +9,8 @@
       "quantity": 200,
       "buy_date": "2026-06-29",
       "cost": 10578.0,
-      "close_price": 55.42,
-      "market_value": 11084.0
+      "close_price": 52.23,
+      "market_value": 10446.0
     },
     {
       "code": "000021",
@@ -23,9 +23,9 @@
       "market_value": 11772.0
     }
   ],
-  "total_value": 49862.0,
-  "total_pnl": -138.0,
-  "total_pnl_pct": "-0.28%",
+  "total_value": 49224.0,
+  "total_pnl": -776.0,
+  "total_pnl_pct": "-1.55%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -696,7 +696,7 @@
       "amount": 11200.0
     }
   ],
-  "last_check": "2026-06-29 10:00",
+  "last_check": "2026-06-29 14:30",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -954,6 +954,13 @@
       "date": "2026-06-29 10:00",
       "total_value": 49862.0,
       "market_value": 22856.0,
+      "cash": 27006.0,
+      "holdings_count": 2
+    },
+    {
+      "date": "2026-06-29 14:30",
+      "total_value": 49224.0,
+      "market_value": 22218.0,
       "cash": 27006.0,
       "holdings_count": 2
     }
