@@ -1,6 +1,6 @@
 {
   "initialized": "2026-04-23",
-  "cash": 27006.0,
+  "cash": 13272.0,
   "holdings": [
     {
       "code": "600460",
@@ -9,8 +9,8 @@
       "quantity": 200,
       "buy_date": "2026-06-29",
       "cost": 10578.0,
-      "close_price": 52.59,
-      "market_value": 10518.0
+      "close_price": 53.5,
+      "market_value": 10700.0
     },
     {
       "code": "000021",
@@ -19,13 +19,23 @@
       "quantity": 200,
       "buy_date": "2026-06-29",
       "cost": 11200.0,
-      "close_price": 58.86,
-      "market_value": 11772.0
+      "close_price": 59.45,
+      "market_value": 11890.0
+    },
+    {
+      "code": "002202",
+      "name": "金风科技",
+      "buy_price": 22.89,
+      "quantity": 600,
+      "buy_date": "2026-06-30",
+      "cost": 13734.0,
+      "close_price": 22.89,
+      "market_value": 13734.0
     }
   ],
-  "total_value": 49296.0,
-  "total_pnl": -704.0,
-  "total_pnl_pct": "-1.41%",
+  "total_value": 49596.0,
+  "total_pnl": -404.0,
+  "total_pnl_pct": "-0.81%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -694,9 +704,19 @@
       "price": 56.0,
       "quantity": 200,
       "amount": 11200.0
+    },
+    {
+      "date": "2026-06-30",
+      "time": "09:28",
+      "action": "BUY",
+      "code": "002202",
+      "name": "金风科技",
+      "price": 22.89,
+      "quantity": 600,
+      "amount": 13734.0
     }
   ],
-  "last_check": "2026-06-29 15:05",
+  "last_check": "2026-06-30 09:28",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -949,6 +969,13 @@
       "market_value": 22290.0,
       "cash": 27006.0,
       "holdings_count": 2
+    },
+    {
+      "date": "2026-06-30",
+      "total_value": 49596.0,
+      "market_value": 36324.0,
+      "cash": 13272.0,
+      "holdings_count": 3
     }
   ],
   "initial_capital": 50000
