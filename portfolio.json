@@ -9,8 +9,8 @@
       "quantity": 200,
       "buy_date": "2026-06-29",
       "cost": 10578.0,
-      "close_price": 52.99,
-      "market_value": 10598.0
+      "close_price": 54.66,
+      "market_value": 10932.0
     },
     {
       "code": "002202",
@@ -23,9 +23,9 @@
       "market_value": 14340.0
     }
   ],
-  "total_value": 50524.0,
-  "total_pnl": 524.0,
-  "total_pnl_pct": "+1.05%",
+  "total_value": 50858.0,
+  "total_pnl": 858.0,
+  "total_pnl_pct": "+1.72%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -717,7 +717,7 @@
       "pnl_pct": 9.95
     }
   ],
-  "last_check": "2026-06-30 10:00",
+  "last_check": "2026-06-30 14:30",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -973,8 +973,8 @@
     },
     {
       "date": "2026-06-30",
-      "total_value": 50524.0,
-      "market_value": 24938.0,
+      "total_value": 50858.0,
+      "market_value": 25272.0,
       "cash": 25586.0,
       "holdings_count": 2
     }
