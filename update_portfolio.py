@@ -1,35 +1,34 @@
 import json
 
-with open('/home/azureuser/apex-capital-daily/portfolio.json', 'r') as f:\n    portfolio = json.load(f)\n\n# Update today's close prices and market values\nclose_prices = {"000100": 5.34, "000823": 25.87, "002015": 17.49}
-
-for h in portfolio['holdings']:
-    code = h['code']
-    if code in close_prices:
-        h['close_price'] = close_prices[code]
-        h['market_value'] = round(close_prices[code] * h['quantity'], 2)
+with open('/home/azureuser/apex-capital-daily/portfolio.json', 'r') as f:\n    p = json.load(f)\n\n# Update holdings with today's closing prices\nfor h in p['holdings']:
+    if h['code'] == '601899':
+        h['close_price'] = 28.28
+        h['market_value'] = round(28.28 * h['quantity'], 2)
+    elif h['code'] == '002245':
+        h['close_price'] = 22.37
+        h['market_value'] = round(22.37 * h['quantity'], 2)
 
 # Recalculate totals
-total_mv = sum(h['market_value'] for h in portfolio['holdings'])
-cash = portfolio['cash']
-total_value = round(cash + total_mv, 2)
+cash = p['cash']  # 24506
+market_value = sum(h['market_value'] for h in p['holdings'])
+total_value = cash + market_value
 
-portfolio['total_value'] = total_value
-portfolio['total_pnl'] = round(total_value - portfolio['initial_capital'], 2)
-portfolio['total_pnl_pct'] = f"{(total_value - portfolio['initial_capital']) / portfolio['initial_capital'] * 100:.2f}%"
-portfolio['last_check'] = '2026-06-25 15:05'
+p['total_value'] = round(total_value, 2)
+p['total_pnl'] = round(total_value - 50000, 2)
+p['total_pnl_pct'] = f"{(total_value/50000-1)*100:+.2f}%"
 
-# Update equity_history
-today_record = {
-    "date": "2026-06-25",
-    "total_value": total_value,
-    "market_value": round(total_mv, 2),
+# Update equity_history - remove duplicate 2026-07-06 entries and add final one
+eq_history = [e for e in p['equity_history'] if e['date'] != '2026-07-06']
+eq_history.append({
+    "date": "2026-07-06",
+    "total_value": round(total_value, 2),
+    "market_value": round(market_value, 2),
     "cash": cash,
-    "holdings_count": len(portfolio['holdings'])
-}
+    "holdings_count": len(p['holdings'])
+})
+p['equity_history'] = eq_history
+p['last_check'] = "2026-07-06 15:05"
 
-# Update or append
-existing = [r for r in portfolio['equity_history'] if r['date'] != '2026-06-25']
-existing.append(today_record)
-portfolio['equity_history'] = existing
-
-with open('/home/azureuser/apex-capital-daily/portfolio.json', 'w') as f:\n    json.dump(portfolio, f, ensure_ascii=False, indent=2)\n\nprint(f"Portfolio updated: total_value={total_value}, market_value={total_mv:.2f}, cash={cash}")
+with open('/home/azureuser/apex-capital-daily/portfolio.json', 'w') as f:\n    json.dump(p, f, ensure_ascii=False, indent=2)\n\nprint(f"Updated: total_value={total_value}, market_value={market_value}, cash={cash}")
+print(f"equity_history entries: {len(eq_history)}")
+print(f"Last 5: {[(e['date'], e['total_value']) for e in eq_history[-5:]]}")

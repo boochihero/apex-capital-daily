@@ -9,8 +9,8 @@
       "quantity": 500,
       "buy_date": "2026-07-03",
       "cost": 13750.0,
-      "close_price": 28.36,
-      "market_value": 14180.0
+      "close_price": 28.28,
+      "market_value": 14140.0
     },
     {
       "code": "002245",
@@ -23,9 +23,9 @@
       "market_value": 13422.0
     }
   ],
-  "total_value": 52108.0,
-  "total_pnl": 2108.0,
-  "total_pnl_pct": "+4.22%",
+  "total_value": 52068.0,
+  "total_pnl": 2068.0,
+  "total_pnl_pct": "+4.14%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -780,7 +780,7 @@
       "pnl_pct": 9.79
     }
   ],
-  "last_check": "2026-07-06 14:30",
+  "last_check": "2026-07-06 15:05",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -1064,22 +1064,8 @@
     },
     {
       "date": "2026-07-06",
-      "total_value": 50368,
-      "market_value": 39186.0,
-      "cash": 11182,
-      "holdings_count": 3
-    },
-    {
-      "date": "2026-07-06",
-      "total_value": 51162.0,
-      "market_value": 39980.0,
-      "cash": 11182,
-      "holdings_count": 3
-    },
-    {
-      "date": "2026-07-06",
-      "total_value": 52108.0,
-      "market_value": 27602.0,
+      "total_value": 52068.0,
+      "market_value": 27562.0,
       "cash": 24506.0,
       "holdings_count": 2
     }
