@@ -1,6 +1,6 @@
 {
   "initialized": "2026-04-23",
-  "cash": 11696.0,
+  "cash": 24134.0,
   "holdings": [
     {
       "code": "601899",
@@ -9,18 +9,8 @@
       "quantity": 500,
       "buy_date": "2026-07-03",
       "cost": 13750.0,
-      "close_price": 27.92,
-      "market_value": 13960.0
-    },
-    {
-      "code": "002245",
-      "name": "蔚蓝锂芯",
-      "buy_price": 21.94,
-      "quantity": 600,
-      "buy_date": "2026-07-06",
-      "cost": 13164.0,
-      "close_price": 21.45,
-      "market_value": 12870.0
+      "close_price": 27.49,
+      "market_value": 13745.0
     },
     {
       "code": "603538",
@@ -29,13 +19,13 @@
       "quantity": 300,
       "buy_date": "2026-07-07",
       "cost": 12810.0,
-      "close_price": 44.59,
-      "market_value": 13377.0
+      "close_price": 43.57,
+      "market_value": 13071.0
     }
   ],
-  "total_value": 51903.0,
-  "total_pnl": 1903.0,
-  "total_pnl_pct": "+3.81%",
+  "total_value": 50950.0,
+  "total_pnl": 950.0,
+  "total_pnl_pct": "+1.90%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -798,9 +788,20 @@
       "price": 42.7,
       "quantity": 300,
       "amount": 12810.0
+    },
+    {
+      "date": "2026-07-07",
+      "time": "14:30",
+      "action": "SELL_STOP_LOSS",
+      "code": "002245",
+      "name": "蔚蓝锂芯",
+      "price": 20.73,
+      "quantity": 600,
+      "amount": 12438.0,
+      "pnl_pct": -5.52
     }
   ],
-  "last_check": "2026-07-07 10:00",
+  "last_check": "2026-07-07 14:30",
   "equity_history": [
     {
       "date": "2026-05-08",
