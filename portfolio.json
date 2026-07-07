@@ -9,8 +9,8 @@
       "quantity": 500,
       "buy_date": "2026-07-03",
       "cost": 13750.0,
-      "close_price": 27.8,
-      "market_value": 13900.0
+      "close_price": 27.92,
+      "market_value": 13960.0
     },
     {
       "code": "002245",
@@ -19,23 +19,23 @@
       "quantity": 600,
       "buy_date": "2026-07-06",
       "cost": 13164.0,
-      "close_price": 22.42,
-      "market_value": 13452.0
+      "close_price": 21.45,
+      "market_value": 12870.0
     },
     {
       "code": "603538",
-      "name": "ç¾è¯ºå",
+      "name": "美诺华",
       "buy_price": 42.7,
       "quantity": 300,
       "buy_date": "2026-07-07",
       "cost": 12810.0,
-      "close_price": 42.7,
-      "market_value": 12810.0
+      "close_price": 44.59,
+      "market_value": 13377.0
     }
   ],
-  "total_value": 51858.0,
-  "total_pnl": 1858.0,
-  "total_pnl_pct": "+3.72%",
+  "total_value": 51903.0,
+  "total_pnl": 1903.0,
+  "total_pnl_pct": "+3.81%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -800,7 +800,7 @@
       "amount": 12810.0
     }
   ],
-  "last_check": "2026-07-07 09:28",
+  "last_check": "2026-07-07 10:00",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -1091,8 +1091,8 @@
     },
     {
       "date": "2026-07-07",
-      "total_value": 51858.0,
-      "market_value": 40162.0,
+      "total_value": 51903.0,
+      "market_value": 40207.0,
       "cash": 11696.0,
       "holdings_count": 3
     }
