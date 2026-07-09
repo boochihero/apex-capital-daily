@@ -9,8 +9,8 @@
       "quantity": 500,
       "buy_date": "2026-07-03",
       "cost": 13750.0,
-      "close_price": 27.52,
-      "market_value": 13760.0
+      "close_price": 27.62,
+      "market_value": 13810.0
     },
     {
       "code": "600909",
@@ -19,7 +19,7 @@
       "quantity": 1400,
       "buy_date": "2026-07-09",
       "cost": 13692.0,
-      "close_price": 10.10,
+      "close_price": 10.1,
       "market_value": 14140.0
     },
     {
@@ -33,9 +33,9 @@
       "market_value": 10352.0
     }
   ],
-  "total_value": 49589.0,
-  "total_pnl": -411,
-  "total_pnl_pct": "-0.82%",
+  "total_value": 49639.0,
+  "total_pnl": -361.0,
+  "total_pnl_pct": "-0.72%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -863,7 +863,7 @@
       "amount": 9770.0
     }
   ],
-  "last_check": "2026-07-09 14:30",
+  "last_check": "2026-07-09 15:05",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -1168,8 +1168,8 @@
     },
     {
       "date": "2026-07-09",
-      "total_value": 49589.0,
-      "market_value": 38252.0,
+      "total_value": 49639.0,
+      "market_value": 38302.0,
       "cash": 11337.0,
       "holdings_count": 3
     }
