@@ -9,13 +9,13 @@
       "quantity": 500,
       "buy_date": "2026-07-03",
       "cost": 13750.0,
-      "close_price": 27.37,
-      "market_value": 13685.0
+      "close_price": 27.36,
+      "market_value": 13680.0
     }
   ],
-  "total_value": 48229.0,
-  "total_pnl": -1771.0,
-  "total_pnl_pct": "-3.54%",
+  "total_value": 48224.0,
+  "total_pnl": -1776.0,
+  "total_pnl_pct": "-3.55%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -1205,8 +1205,8 @@
     },
     {
       "date": "2026-07-13",
-      "total_value": 48229.0,
-      "market_value": 13685.0,
+      "total_value": 48224.0,
+      "market_value": 13680.0,
       "cash": 34544.0,
       "holdings_count": 1
     }
