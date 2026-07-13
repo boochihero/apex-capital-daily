@@ -1,6 +1,6 @@
 {
   "initialized": "2026-04-23",
-  "cash": 9120.0,
+  "cash": 34544.0,
   "holdings": [
     {
       "code": "601899",
@@ -9,33 +9,13 @@
       "quantity": 500,
       "buy_date": "2026-07-03",
       "cost": 13750.0,
-      "close_price": 27.23,
-      "market_value": 13615.0
-    },
-    {
-      "code": "600909",
-      "name": "华安证券",
-      "buy_price": 9.78,
-      "quantity": 1400,
-      "buy_date": "2026-07-09",
-      "cost": 13692.0,
-      "close_price": 9.29,
-      "market_value": 13006.0
-    },
-    {
-      "code": "002246",
-      "name": "北化股份",
-      "buy_price": 19.23,
-      "quantity": 700,
-      "buy_date": "2026-07-13",
-      "cost": 13461.0,
-      "close_price": 19.23,
-      "market_value": 13461.0
+      "close_price": 27.17,
+      "market_value": 13585.0
     }
   ],
-  "total_value": 49202.0,
-  "total_pnl": -798.0,
-  "total_pnl_pct": "-1.60%",
+  "total_value": 48129.0,
+  "total_pnl": -1871.0,
+  "total_pnl_pct": "-3.74%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -882,9 +862,31 @@
       "price": 19.23,
       "quantity": 700,
       "amount": 13461.0
+    },
+    {
+      "date": "2026-07-13",
+      "time": "10:00",
+      "action": "SELL_STOP_LOSS",
+      "code": "600909",
+      "name": "华安证券",
+      "price": 9.05,
+      "quantity": 1400,
+      "amount": 12670.0,
+      "pnl_pct": -7.46
+    },
+    {
+      "date": "2026-07-13",
+      "time": "10:00",
+      "action": "SELL_STOP_LOSS",
+      "code": "002246",
+      "name": "北化股份",
+      "price": 18.22,
+      "quantity": 700,
+      "amount": 12754.0,
+      "pnl_pct": -5.25
     }
   ],
-  "last_check": "2026-07-13 09:28",
+  "last_check": "2026-07-13 10:00",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -1203,10 +1205,10 @@
     },
     {
       "date": "2026-07-13",
-      "total_value": 49202.0,
-      "market_value": 40082.0,
-      "cash": 9120.0,
-      "holdings_count": 3
+      "total_value": 48129.0,
+      "market_value": 13585.0,
+      "cash": 34544.0,
+      "holdings_count": 1
     }
   ],
   "initial_capital": 50000
