@@ -1,6 +1,6 @@
 {
   "initialized": "2026-04-23",
-  "cash": 7672.0,
+  "cash": 19048.0,
   "holdings": [
     {
       "code": "601899",
@@ -9,18 +9,8 @@
       "quantity": 500,
       "buy_date": "2026-07-03",
       "cost": 13750.0,
-      "close_price": 26.88,
-      "market_value": 13440.0
-    },
-    {
-      "code": "002541",
-      "name": "鸿路钓构",
-      "buy_price": 21.5,
-      "quantity": 600,
-      "buy_date": "2026-07-14",
-      "cost": 12900.0,
-      "close_price": 21.5,
-      "market_value": 12900.0
+      "close_price": 27.18,
+      "market_value": 13590.0
     },
     {
       "code": "000100",
@@ -29,13 +19,13 @@
       "quantity": 2800,
       "buy_date": "2026-07-14",
       "cost": 13972.0,
-      "close_price": 4.99,
-      "market_value": 13972.0
+      "close_price": 4.98,
+      "market_value": 13944.0
     }
   ],
-  "total_value": 47984.0,
-  "total_pnl": -2016.0,
-  "total_pnl_pct": "-4.03%",
+  "total_value": 46582.0,
+  "total_pnl": -3418.0,
+  "total_pnl_pct": "-6.84%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -924,9 +914,20 @@
       "price": 4.99,
       "quantity": 2800,
       "amount": 13972.0
+    },
+    {
+      "date": "2026-07-14",
+      "time": "10:00",
+      "action": "SELL_STOP_LOSS",
+      "code": "002541",
+      "name": "鸿路钢构",
+      "price": 18.96,
+      "quantity": 600,
+      "amount": 11376.0,
+      "pnl_pct": -11.81
     }
   ],
-  "last_check": "2026-07-14 09:28",
+  "last_check": "2026-07-14 10:00",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -1252,10 +1253,10 @@
     },
     {
       "date": "2026-07-14",
-      "total_value": 47984.0,
-      "market_value": 40312.0,
-      "cash": 7672.0,
-      "holdings_count": 3
+      "total_value": 46582.0,
+      "market_value": 27534.0,
+      "cash": 19048.0,
+      "holdings_count": 2
     }
   ],
   "initial_capital": 50000
