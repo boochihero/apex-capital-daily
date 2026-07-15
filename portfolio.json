@@ -1,6 +1,6 @@
 {
   "initialized": "2026-04-23",
-  "cash": 19048.0,
+  "cash": 8828.0,
   "holdings": [
     {
       "code": "601899",
@@ -21,6 +21,16 @@
       "cost": 13972.0,
       "close_price": 5.13,
       "market_value": 14364.0
+    },
+    {
+      "code": "002636",
+      "name": "金安国纪",
+      "buy_price": 102.2,
+      "quantity": 100,
+      "buy_date": "2026-07-15",
+      "cost": 10220.0,
+      "close_price": 102.2,
+      "market_value": 10220.0
     }
   ],
   "total_value": 47942.0,
@@ -925,9 +935,19 @@
       "quantity": 600,
       "amount": 11376.0,
       "pnl_pct": -11.81
+    },
+    {
+      "date": "2026-07-15",
+      "time": "09:28",
+      "action": "BUY",
+      "code": "002636",
+      "name": "金安国纪",
+      "price": 102.2,
+      "quantity": 100,
+      "amount": 10220.0
     }
   ],
-  "last_check": "2026-07-14 15:05",
+  "last_check": "2026-07-15 09:28",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -1257,6 +1277,13 @@
       "market_value": 28894.0,
       "cash": 19048.0,
       "holdings_count": 2
+    },
+    {
+      "date": "2026-07-15",
+      "total_value": 47942.0,
+      "market_value": 39114.0,
+      "cash": 8828.0,
+      "holdings_count": 3
     }
   ],
   "initial_capital": 50000

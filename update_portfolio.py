@@ -1,34 +1,52 @@
 import json
 
-with open('/home/azureuser/apex-capital-daily/portfolio.json', 'r') as f:\n    p = json.load(f)\n\n# Update holdings with today's closing prices\nfor h in p['holdings']:
-    if h['code'] == '601899':
-        h['close_price'] = 28.28
-        h['market_value'] = round(28.28 * h['quantity'], 2)
-    elif h['code'] == '002245':
-        h['close_price'] = 22.37
-        h['market_value'] = round(22.37 * h['quantity'], 2)
+portfolio_path = '/home/azureuser/apex-capital-daily/portfolio.json'
+with open(portfolio_path) as f:\n    p = json.load(f)\n\n# 买入金安国纪\nbuy_code = "002636"
+buy_name = "金安国纪"
+buy_price = 102.20
+buy_qty = 100
+buy_amt = buy_price * buy_qty  # 10220
 
-# Recalculate totals
-cash = p['cash']  # 24506
-market_value = sum(h['market_value'] for h in p['holdings'])
-total_value = cash + market_value
-
-p['total_value'] = round(total_value, 2)
-p['total_pnl'] = round(total_value - 50000, 2)
-p['total_pnl_pct'] = f"{(total_value/50000-1)*100:+.2f}%"
-
-# Update equity_history - remove duplicate 2026-07-06 entries and add final one
-eq_history = [e for e in p['equity_history'] if e['date'] != '2026-07-06']
-eq_history.append({
-    "date": "2026-07-06",
-    "total_value": round(total_value, 2),
-    "market_value": round(market_value, 2),
-    "cash": cash,
-    "holdings_count": len(p['holdings'])
+p["cash"] = round(p["cash"] - buy_amt, 2)
+p["holdings"].append({
+    "code": buy_code,
+    "name": buy_name,
+    "buy_price": buy_price,
+    "quantity": buy_qty,
+    "buy_date": "2026-07-15",
+    "cost": buy_amt,
+    "close_price": buy_price,
+    "market_value": buy_amt
 })
-p['equity_history'] = eq_history
-p['last_check'] = "2026-07-06 15:05"
 
-with open('/home/azureuser/apex-capital-daily/portfolio.json', 'w') as f:\n    json.dump(p, f, ensure_ascii=False, indent=2)\n\nprint(f"Updated: total_value={total_value}, market_value={market_value}, cash={cash}")
-print(f"equity_history entries: {len(eq_history)}")
-print(f"Last 5: {[(e['date'], e['total_value']) for e in eq_history[-5:]]}")
+# 更新总值
+mv = sum(h["market_value"] for h in p["holdings"])
+p["total_value"] = round(p["cash"] + mv, 2)
+p["total_pnl"] = round(p["total_value"] - p["initial_capital"], 2)
+p["total_pnl_pct"] = f"{(p['total_pnl']/p['initial_capital']*100):.2f}%"
+
+# 添加交易记录
+p["trade_log"].append({
+    "date": "2026-07-15",
+    "time": "09:28",
+    "action": "BUY",
+    "code": buy_code,
+    "name": buy_name,
+    "price": buy_price,
+    "quantity": buy_qty,
+    "amount": buy_amt
+})
+
+p["last_check"] = "2026-07-15 09:28"
+
+p["equity_history"].append({
+    "date": "2026-07-15",
+    "total_value": p["total_value"],
+    "market_value": mv,
+    "cash": p["cash"],
+    "holdings_count": len(p["holdings"])
+})
+
+with open(portfolio_path, 'w', encoding='utf-8') as f:\n    json.dump(p, f, ensure_ascii=False, indent=2)\n\nprint(f"更新完成: 现金={p['cash']}, 持仓={len(p['holdings'])}只, 总值={p['total_value']}")
+for h in p["holdings"]:
+    print(f"  {h['code']} {h['name']} {h['quantity']}股 @ {h['buy_price']}")
