@@ -1,6 +1,6 @@
 {
   "initialized": "2026-04-23",
-  "cash": 18371.0,
+  "cash": 18371,
   "holdings": [
     {
       "code": "601899",
@@ -8,9 +8,9 @@
       "buy_price": 27.5,
       "quantity": 500,
       "buy_date": "2026-07-03",
-      "cost": 13750.0,
-      "close_price": 29.35,
-      "market_value": 14675.0
+      "cost": 13750,
+      "close_price": 29.25,
+      "market_value": 14625
     },
     {
       "code": "000100",
@@ -18,13 +18,13 @@
       "buy_price": 4.99,
       "quantity": 2800,
       "buy_date": "2026-07-14",
-      "cost": 13972.0,
-      "close_price": 4.96,
-      "market_value": 13888.0
+      "cost": 13972,
+      "close_price": 4.98,
+      "market_value": 13944
     }
   ],
-  "total_value": 46934.0,
-  "total_pnl": -3066.0,
+  "total_value": 46940,
+  "total_pnl": -3066,
   "total_pnl_pct": "-6.13%",
   "rules": {
     "max_position_pct": 0.3,
@@ -587,7 +587,7 @@
       "name": "航天电器",
       "price": 57.57,
       "quantity": 200,
-      "amount": 11514.0,
+      "amount": 11514,
       "pnl_pct": -9.92
     },
     {
@@ -598,7 +598,7 @@
       "name": "紫金矿业",
       "price": 28.94,
       "quantity": 400,
-      "amount": 11576.0,
+      "amount": 11576,
       "pnl_pct": -5.24
     },
     {
@@ -609,7 +609,7 @@
       "name": "三祥新材",
       "price": 105.8,
       "quantity": 100,
-      "amount": 10580.0,
+      "amount": 10580,
       "pnl_pct": 27.07
     },
     {
@@ -620,7 +620,7 @@
       "name": "协鑫能科",
       "price": 18.01,
       "quantity": 700,
-      "amount": 12607.0
+      "amount": 12607
     },
     {
       "date": "2026-06-25",
@@ -630,7 +630,7 @@
       "name": "TCL科技",
       "price": 5.07,
       "quantity": 2700,
-      "amount": 13689.0
+      "amount": 13689
     },
     {
       "date": "2026-06-25",
@@ -640,7 +640,7 @@
       "name": "超声电子",
       "price": 24.99,
       "quantity": 500,
-      "amount": 12495.0
+      "amount": 12495
     },
     {
       "date": "2026-06-26",
@@ -650,7 +650,7 @@
       "name": "TCL科技",
       "price": 5.48,
       "quantity": 2700,
-      "amount": 14796.0,
+      "amount": 14796,
       "pnl_pct": 8.09
     },
     {
@@ -661,7 +661,7 @@
       "name": "超声电子",
       "price": 28.46,
       "quantity": 500,
-      "amount": 14230.0,
+      "amount": 14230,
       "pnl_pct": 13.89
     },
     {
@@ -672,7 +672,7 @@
       "name": "协鑫能科",
       "price": 17.02,
       "quantity": 700,
-      "amount": 11914.0,
+      "amount": 11914,
       "pnl_pct": -5.5
     },
     {
@@ -683,7 +683,7 @@
       "name": "士兰微",
       "price": 52.89,
       "quantity": 200,
-      "amount": 10578.0
+      "amount": 10578
     },
     {
       "date": "2026-06-29",
@@ -691,9 +691,9 @@
       "action": "BUY",
       "code": "000021",
       "name": "深科技",
-      "price": 56.0,
+      "price": 56,
       "quantity": 200,
-      "amount": 11200.0
+      "amount": 11200
     },
     {
       "date": "2026-06-30",
@@ -703,7 +703,7 @@
       "name": "金风科技",
       "price": 22.89,
       "quantity": 600,
-      "amount": 13734.0
+      "amount": 13734
     },
     {
       "date": "2026-06-30",
@@ -713,7 +713,7 @@
       "name": "深科技",
       "price": 61.57,
       "quantity": 200,
-      "amount": 12314.0,
+      "amount": 12314,
       "pnl_pct": 9.95
     },
     {
@@ -724,7 +724,7 @@
       "name": "紫光股份",
       "price": 30.34,
       "quantity": 400,
-      "amount": 12136.0
+      "amount": 12136
     },
     {
       "date": "2026-07-01",
@@ -734,7 +734,7 @@
       "name": "金风科技",
       "price": 24.73,
       "quantity": 600,
-      "amount": 14838.0,
+      "amount": 14838,
       "pnl_pct": 8.04
     },
     {
@@ -745,7 +745,7 @@
       "name": "紫金矿业",
       "price": 27.5,
       "quantity": 500,
-      "amount": 13750.0
+      "amount": 13750
     },
     {
       "date": "2026-07-03",
@@ -755,7 +755,7 @@
       "name": "士兰微",
       "price": 49.04,
       "quantity": 200,
-      "amount": 9808.0,
+      "amount": 9808,
       "pnl_pct": -7.28
     },
     {
@@ -766,7 +766,7 @@
       "name": "蔚蓝锂芯",
       "price": 21.94,
       "quantity": 600,
-      "amount": 13164.0
+      "amount": 13164
     },
     {
       "date": "2026-07-06",
@@ -776,7 +776,7 @@
       "name": "紫光股份",
       "price": 33.31,
       "quantity": 400,
-      "amount": 13324.0,
+      "amount": 13324,
       "pnl_pct": 9.79
     },
     {
@@ -787,7 +787,7 @@
       "name": "ç¾è¯ºå",
       "price": 42.7,
       "quantity": 300,
-      "amount": 12810.0
+      "amount": 12810
     },
     {
       "date": "2026-07-07",
@@ -797,7 +797,7 @@
       "name": "蔚蓝锂芯",
       "price": 20.73,
       "quantity": 600,
-      "amount": 12438.0,
+      "amount": 12438,
       "pnl_pct": -5.52
     },
     {
@@ -808,7 +808,7 @@
       "name": "华天科技",
       "price": 22.97,
       "quantity": 600,
-      "amount": 13782.0
+      "amount": 13782
     },
     {
       "date": "2026-07-08",
@@ -818,7 +818,7 @@
       "name": "华天科技",
       "price": 21.08,
       "quantity": 600,
-      "amount": 12648.0,
+      "amount": 12648,
       "pnl_pct": -8.23
     },
     {
@@ -829,7 +829,7 @@
       "name": "美诺华",
       "price": 39.33,
       "quantity": 300,
-      "amount": 11799.0,
+      "amount": 11799,
       "pnl_pct": -7.89
     },
     {
@@ -840,7 +840,7 @@
       "name": "华安证券",
       "price": 9.78,
       "quantity": 1400,
-      "amount": 13692.0
+      "amount": 13692
     },
     {
       "date": "2026-07-09",
@@ -850,7 +850,7 @@
       "name": "长电科技",
       "price": 97.7,
       "quantity": 100,
-      "amount": 9770.0
+      "amount": 9770
     },
     {
       "date": "2026-07-10",
@@ -860,7 +860,7 @@
       "name": "长电科技",
       "price": 112.44,
       "quantity": 100,
-      "amount": 11244.0,
+      "amount": 11244,
       "pnl_pct": 15.09
     },
     {
@@ -871,7 +871,7 @@
       "name": "北化股份",
       "price": 19.23,
       "quantity": 700,
-      "amount": 13461.0
+      "amount": 13461
     },
     {
       "date": "2026-07-13",
@@ -881,7 +881,7 @@
       "name": "华安证券",
       "price": 9.05,
       "quantity": 1400,
-      "amount": 12670.0,
+      "amount": 12670,
       "pnl_pct": -7.46
     },
     {
@@ -892,7 +892,7 @@
       "name": "北化股份",
       "price": 18.22,
       "quantity": 700,
-      "amount": 12754.0,
+      "amount": 12754,
       "pnl_pct": -5.25
     },
     {
@@ -903,7 +903,7 @@
       "name": "鸿路钓构",
       "price": 21.5,
       "quantity": 600,
-      "amount": 12900.0
+      "amount": 12900
     },
     {
       "date": "2026-07-14",
@@ -913,7 +913,7 @@
       "name": "TCL科技",
       "price": 4.99,
       "quantity": 2800,
-      "amount": 13972.0
+      "amount": 13972
     },
     {
       "date": "2026-07-14",
@@ -923,7 +923,7 @@
       "name": "鸿路钢构",
       "price": 18.96,
       "quantity": 600,
-      "amount": 11376.0,
+      "amount": 11376,
       "pnl_pct": -11.81
     },
     {
@@ -934,7 +934,7 @@
       "name": "金安国纪",
       "price": 102.2,
       "quantity": 100,
-      "amount": 10220.0
+      "amount": 10220
     },
     {
       "date": "2026-07-15",
@@ -944,11 +944,11 @@
       "name": "金安国纪",
       "price": 95.43,
       "quantity": 100,
-      "amount": 9543.0,
+      "amount": 9543,
       "pnl_pct": -6.62
     }
   ],
-  "last_check": "2026-07-16 14:30",
+  "last_check": "2026-07-16 15:05",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -1155,142 +1155,142 @@
     },
     {
       "date": "2026-06-18",
-      "total_value": 46296.0,
-      "market_value": 33331.0,
+      "total_value": 46296,
+      "market_value": 33331,
       "cash": 12965,
       "holdings_count": 3
     },
     {
       "date": "2026-06-19",
-      "total_value": 46296.0,
-      "market_value": 33331.0,
+      "total_value": 46296,
+      "market_value": 33331,
       "cash": 12965,
       "holdings_count": 3
     },
     {
       "date": "2026-06-23",
-      "total_value": 46635.0,
-      "market_value": 0.0,
-      "cash": 46635.0,
+      "total_value": 46635,
+      "market_value": 0,
+      "cash": 46635,
       "holdings_count": 0
     },
     {
       "date": "2026-06-24",
-      "total_value": 46677.0,
-      "market_value": 12649.0,
-      "cash": 34028.0,
+      "total_value": 46677,
+      "market_value": 12649,
+      "cash": 34028,
       "holdings_count": 1
     },
     {
       "date": "2026-06-25",
-      "total_value": 47440.0,
-      "market_value": 39596.0,
+      "total_value": 47440,
+      "market_value": 39596,
       "cash": 7844,
       "holdings_count": 3
     },
     {
       "date": "2026-06-26",
-      "total_value": 49204.0,
-      "market_value": 12334.0,
-      "cash": 36870.0,
+      "total_value": 49204,
+      "market_value": 12334,
+      "cash": 36870,
       "holdings_count": 1
     },
     {
       "date": "2026-06-29",
-      "total_value": 49296.0,
-      "market_value": 22290.0,
-      "cash": 27006.0,
+      "total_value": 49296,
+      "market_value": 22290,
+      "cash": 27006,
       "holdings_count": 2
     },
     {
       "date": "2026-06-30",
-      "total_value": 50858.0,
-      "market_value": 25272.0,
-      "cash": 25586.0,
+      "total_value": 50858,
+      "market_value": 25272,
+      "cash": 25586,
       "holdings_count": 2
     },
     {
       "date": "2026-07-01",
-      "total_value": 50890.0,
-      "market_value": 22602.0,
-      "cash": 28288.0,
+      "total_value": 50890,
+      "market_value": 22602,
+      "cash": 28288,
       "holdings_count": 2
     },
     {
       "date": "2026-07-02",
-      "total_value": 50000.0,
-      "market_value": 21712.0,
-      "cash": 28288.0,
+      "total_value": 50000,
+      "market_value": 21712,
+      "cash": 28288,
       "holdings_count": 2
     },
     {
       "date": "2026-07-03",
-      "total_value": 50368.0,
-      "market_value": 26022.0,
-      "cash": 24346.0,
+      "total_value": 50368,
+      "market_value": 26022,
+      "cash": 24346,
       "holdings_count": 2
     },
     {
       "date": "2026-07-06",
-      "total_value": 52068.0,
-      "market_value": 27562.0,
-      "cash": 24506.0,
+      "total_value": 52068,
+      "market_value": 27562,
+      "cash": 24506,
       "holdings_count": 2
     },
     {
       "date": "2026-07-07",
-      "total_value": 51054.0,
-      "market_value": 26920.0,
-      "cash": 24134.0,
+      "total_value": 51054,
+      "market_value": 26920,
+      "cash": 24134,
       "holdings_count": 2
     },
     {
       "date": "2026-07-08",
-      "total_value": 48479.0,
-      "market_value": 13680.0,
-      "cash": 34799.0,
+      "total_value": 48479,
+      "market_value": 13680,
+      "cash": 34799,
       "holdings_count": 1
     },
     {
       "date": "2026-07-09",
-      "total_value": 49639.0,
-      "market_value": 38302.0,
-      "cash": 11337.0,
+      "total_value": 49639,
+      "market_value": 38302,
+      "cash": 11337,
       "holdings_count": 3
     },
     {
       "date": "2026-07-10",
-      "total_value": 49643.0,
-      "market_value": 27062.0,
-      "cash": 22581.0,
+      "total_value": 49643,
+      "market_value": 27062,
+      "cash": 22581,
       "holdings_count": 2
     },
     {
       "date": "2026-07-13",
-      "total_value": 48224.0,
-      "market_value": 13680.0,
-      "cash": 34544.0,
+      "total_value": 48224,
+      "market_value": 13680,
+      "cash": 34544,
       "holdings_count": 1
     },
     {
       "date": "2026-07-14",
-      "total_value": 47942.0,
-      "market_value": 28894.0,
-      "cash": 19048.0,
+      "total_value": 47942,
+      "market_value": 28894,
+      "cash": 19048,
       "holdings_count": 2
     },
     {
       "date": "2026-07-15",
-      "total_value": 46842.0,
-      "market_value": 28471.0,
-      "cash": 18371.0,
+      "total_value": 46842,
+      "market_value": 28471,
+      "cash": 18371,
       "holdings_count": 2
     },
     {
       "date": "2026-07-16",
-      "total_value": 46934.0,
-      "market_value": 28563.0,
-      "cash": 18371.0,
+      "total_value": 46940,
+      "market_value": 28569,
+      "cash": 18371,
       "holdings_count": 2
     }
   ],
