@@ -9,8 +9,8 @@
       "quantity": 500,
       "buy_date": "2026-07-03",
       "cost": 13750,
-      "close_price": 28.36,
-      "market_value": 14180.0
+      "close_price": 28.91,
+      "market_value": 14455.0
     },
     {
       "code": "000100",
@@ -19,8 +19,8 @@
       "quantity": 2800,
       "buy_date": "2026-07-14",
       "cost": 13972,
-      "close_price": 5.0,
-      "market_value": 14000.0
+      "close_price": 5.08,
+      "market_value": 14224.0
     },
     {
       "code": "000977",
@@ -29,11 +29,11 @@
       "quantity": 100,
       "buy_date": "2026-07-20",
       "cost": 8202.0,
-      "close_price": 82.02,
-      "market_value": 8202.0
+      "close_price": 83.01,
+      "market_value": 8301.0
     }
   ],
-  "total_value": 45487.0,
+  "total_value": 46085.0,
   "total_pnl": -4513.0,
   "total_pnl_pct": "-9.03%",
   "rules": {
@@ -989,7 +989,7 @@
       "amount": 8202.0
     }
   ],
-  "last_check": "2026-07-20 09:28",
+  "last_check": "2026-07-20 10:00",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -1345,6 +1345,13 @@
       "date": "2026-07-20",
       "total_value": 45487.0,
       "market_value": 36382.0,
+      "cash": 9105.0,
+      "holdings_count": 3
+    },
+    {
+      "date": "2026-07-20_1000",
+      "total_value": 46085.0,
+      "market_value": 36980.0,
       "cash": 9105.0,
       "holdings_count": 3
     }
