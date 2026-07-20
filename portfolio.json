@@ -1,6 +1,6 @@
 {
   "initialized": "2026-04-23",
-  "cash": 17307.0,
+  "cash": 9105.0,
   "holdings": [
     {
       "code": "601899",
@@ -21,6 +21,16 @@
       "cost": 13972,
       "close_price": 5.0,
       "market_value": 14000.0
+    },
+    {
+      "code": "000977",
+      "name": "浪潮信息",
+      "buy_price": 82.02,
+      "quantity": 100,
+      "buy_date": "2026-07-20",
+      "cost": 8202.0,
+      "close_price": 82.02,
+      "market_value": 8202.0
     }
   ],
   "total_value": 45487.0,
@@ -967,9 +977,19 @@
       "quantity": 700,
       "amount": 12439.0,
       "pnl_pct": -7.88
+    },
+    {
+      "date": "2026-07-20",
+      "time": "09:28",
+      "action": "BUY",
+      "code": "000977",
+      "name": "浪潮信息",
+      "price": 82.02,
+      "quantity": 100,
+      "amount": 8202.0
     }
   ],
-  "last_check": "2026-07-17 15:05",
+  "last_check": "2026-07-20 09:28",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -1320,6 +1340,13 @@
       "market_value": 28180.0,
       "cash": 17307.0,
       "holdings_count": 2
+    },
+    {
+      "date": "2026-07-20",
+      "total_value": 45487.0,
+      "market_value": 36382.0,
+      "cash": 9105.0,
+      "holdings_count": 3
     }
   ],
   "initial_capital": 50000
