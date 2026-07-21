@@ -9,8 +9,8 @@
       "quantity": 2800,
       "buy_date": "2026-07-14",
       "cost": 13972,
-      "close_price": 5.3,
-      "market_value": 14840.0
+      "close_price": 5.35,
+      "market_value": 14980.0
     },
     {
       "code": "000977",
@@ -19,13 +19,13 @@
       "quantity": 100,
       "buy_date": "2026-07-20",
       "cost": 8202.0,
-      "close_price": 87.88,
-      "market_value": 8788.0
+      "close_price": 88.66,
+      "market_value": 8866.0
     }
   ],
-  "total_value": 47738.0,
-  "total_pnl": -2262.0,
-  "total_pnl_pct": "-4.52%",
+  "total_value": 47956.0,
+  "total_pnl": -2044.0,
+  "total_pnl_pct": "-4.09%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -1351,8 +1351,8 @@
     },
     {
       "date": "2026-07-21",
-      "total_value": 47738.0,
-      "market_value": 23628.0,
+      "total_value": 47956.0,
+      "market_value": 23846.0,
       "cash": 24110.0,
       "holdings_count": 2
     }
