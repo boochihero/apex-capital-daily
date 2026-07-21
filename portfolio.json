@@ -1,17 +1,7 @@
 {
   "initialized": "2026-04-23",
-  "cash": 9105.0,
+  "cash": 24110.0,
   "holdings": [
-    {
-      "code": "601899",
-      "name": "紫金矿业",
-      "buy_price": 27.5,
-      "quantity": 500,
-      "buy_date": "2026-07-03",
-      "cost": 13750,
-      "close_price": 29.65,
-      "market_value": 14825.0
-    },
     {
       "code": "000100",
       "name": "TCL科技",
@@ -19,8 +9,8 @@
       "quantity": 2800,
       "buy_date": "2026-07-14",
       "cost": 13972,
-      "close_price": 5.08,
-      "market_value": 14224.0
+      "close_price": 5.3,
+      "market_value": 14840.0
     },
     {
       "code": "000977",
@@ -29,13 +19,13 @@
       "quantity": 100,
       "buy_date": "2026-07-20",
       "cost": 8202.0,
-      "close_price": 79.98,
-      "market_value": 7998.0
+      "close_price": 87.88,
+      "market_value": 8788.0
     }
   ],
-  "total_value": 46152.0,
-  "total_pnl": -3848.0,
-  "total_pnl_pct": "-7.70%",
+  "total_value": 47738.0,
+  "total_pnl": -2262.0,
+  "total_pnl_pct": "-4.52%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -987,9 +977,20 @@
       "price": 82.02,
       "quantity": 100,
       "amount": 8202.0
+    },
+    {
+      "date": "2026-07-21",
+      "time": "14:30",
+      "action": "SELL_TAKE_PROFIT",
+      "code": "601899",
+      "name": "紫金矿业",
+      "price": 30.01,
+      "quantity": 500,
+      "amount": 15005.0,
+      "pnl_pct": 9.13
     }
   ],
-  "last_check": "2026-07-21 10:00",
+  "last_check": "2026-07-21 14:30",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -1350,10 +1351,10 @@
     },
     {
       "date": "2026-07-21",
-      "total_value": 46152.0,
-      "market_value": 37047.0,
-      "cash": 9105.0,
-      "holdings_count": 3
+      "total_value": 47738.0,
+      "market_value": 23628.0,
+      "cash": 24110.0,
+      "holdings_count": 2
     }
   ],
   "initial_capital": 50000
