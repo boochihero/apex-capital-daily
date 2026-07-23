@@ -1,6 +1,6 @@
 {
   "initialized": "2026-04-23",
-  "cash": 26286.0,
+  "cash": 13086.0,
   "holdings": [
     {
       "code": "000100",
@@ -10,7 +10,7 @@
       "buy_date": "2026-07-14",
       "cost": 13972,
       "close_price": 5.15,
-      "market_value": 14420.0
+      "market_value": 14420.000000000002
     },
     {
       "code": "002156",
@@ -20,7 +20,17 @@
       "buy_date": "2026-07-22",
       "cost": 7170.999999999999,
       "close_price": 74.9,
-      "market_value": 7490.0
+      "market_value": 7490.000000000001
+    },
+    {
+      "code": "000636",
+      "name": "风华高科",
+      "buy_price": 44.0,
+      "quantity": 300,
+      "buy_date": "2026-07-23",
+      "cost": 13200.0,
+      "close_price": 44.0,
+      "market_value": 13200.0
     }
   ],
   "total_value": 48196.0,
@@ -1009,9 +1019,19 @@
       "quantity": 100,
       "amount": 9347.0,
       "pnl_pct": 13.96
+    },
+    {
+      "date": "2026-07-23",
+      "time": "09:28",
+      "action": "BUY",
+      "code": "000636",
+      "name": "风华高科",
+      "price": 44.0,
+      "quantity": 300,
+      "amount": 13200.0
     }
   ],
-  "last_check": "2026-07-22 15:05",
+  "last_check": "2026-07-23 09:28",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -1383,6 +1403,13 @@
       "market_value": 21910.0,
       "cash": 26286.0,
       "holdings_count": 2
+    },
+    {
+      "date": "2026-07-23",
+      "total_value": 48196.0,
+      "market_value": 35110.0,
+      "cash": 13086.0,
+      "holdings_count": 3
     }
   ],
   "initial_capital": 50000
