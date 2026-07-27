@@ -1,6 +1,6 @@
 {
   "initialized": "2026-04-23",
-  "cash": 25326.0,
+  "cash": 14247.0,
   "holdings": [
     {
       "code": "000100",
@@ -9,8 +9,8 @@
       "quantity": 2800,
       "buy_date": "2026-07-14",
       "cost": 13972,
-      "close_price": 5.04,
-      "market_value": 14112.0
+      "close_price": 5.05,
+      "market_value": 14140.0
     },
     {
       "code": "002156",
@@ -18,14 +18,24 @@
       "buy_price": 71.71,
       "quantity": 100,
       "buy_date": "2026-07-22",
-      "cost": 7170.999999999999,
-      "close_price": 76.64,
-      "market_value": 7664.0
+      "cost": 7171.0,
+      "close_price": 72.88,
+      "market_value": 7288.0
+    },
+    {
+      "code": "002415",
+      "name": "海康威视",
+      "buy_price": 36.93,
+      "quantity": 300,
+      "buy_date": "2026-07-27",
+      "cost": 11079.0,
+      "close_price": 36.93,
+      "market_value": 11079.0
     }
   ],
-  "total_value": 47102.0,
-  "total_pnl": -2898.0,
-  "total_pnl_pct": "-5.80%",
+  "total_value": 46754.0,
+  "total_pnl": -3246.0,
+  "total_pnl_pct": "-6.49%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -1030,9 +1040,19 @@
       "quantity": 300,
       "amount": 12240.0,
       "pnl_pct": -7.27
+    },
+    {
+      "date": "2026-07-27",
+      "time": "09:28",
+      "action": "BUY",
+      "code": "002415",
+      "name": "海康威视",
+      "price": 36.93,
+      "quantity": 300,
+      "amount": 11079.0
     }
   ],
-  "last_check": "2026-07-24 14:30",
+  "last_check": "2026-07-27 09:28",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -1418,6 +1438,13 @@
       "market_value": 21776.0,
       "cash": 25326.0,
       "holdings_count": 2
+    },
+    {
+      "date": "2026-07-27",
+      "total_value": 46754.0,
+      "market_value": 32507.0,
+      "cash": 14247.0,
+      "holdings_count": 3
     }
   ],
   "initial_capital": 50000
