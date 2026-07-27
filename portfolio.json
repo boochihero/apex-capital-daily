@@ -1,6 +1,6 @@
 {
   "initialized": "2026-04-23",
-  "cash": 14247.0,
+  "cash": 14247,
   "holdings": [
     {
       "code": "000100",
@@ -9,8 +9,8 @@
       "quantity": 2800,
       "buy_date": "2026-07-14",
       "cost": 13972,
-      "close_price": 5.05,
-      "market_value": 14140.0
+      "close_price": 5.03,
+      "market_value": 14084
     },
     {
       "code": "002156",
@@ -18,9 +18,9 @@
       "buy_price": 71.71,
       "quantity": 100,
       "buy_date": "2026-07-22",
-      "cost": 7171.0,
-      "close_price": 72.88,
-      "market_value": 7288.0
+      "cost": 7171,
+      "close_price": 75.99,
+      "market_value": 7599
     },
     {
       "code": "002415",
@@ -28,14 +28,14 @@
       "buy_price": 36.93,
       "quantity": 300,
       "buy_date": "2026-07-27",
-      "cost": 11079.0,
-      "close_price": 36.93,
-      "market_value": 11079.0
+      "cost": 11079,
+      "close_price": 36.83,
+      "market_value": 11049
     }
   ],
-  "total_value": 46754.0,
-  "total_pnl": -3246.0,
-  "total_pnl_pct": "-6.49%",
+  "total_value": 46979,
+  "total_pnl": -3021,
+  "total_pnl_pct": "-6.04%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -965,7 +965,7 @@
       "name": "凤形股份",
       "price": 19.29,
       "quantity": 700,
-      "amount": 13503.0
+      "amount": 13503
     },
     {
       "date": "2026-07-17",
@@ -975,7 +975,7 @@
       "name": "凤形股份",
       "price": 17.77,
       "quantity": 700,
-      "amount": 12439.0,
+      "amount": 12439,
       "pnl_pct": -7.88
     },
     {
@@ -986,7 +986,7 @@
       "name": "浪潮信息",
       "price": 82.02,
       "quantity": 100,
-      "amount": 8202.0
+      "amount": 8202
     },
     {
       "date": "2026-07-21",
@@ -996,7 +996,7 @@
       "name": "紫金矿业",
       "price": 30.01,
       "quantity": 500,
-      "amount": 15005.0,
+      "amount": 15005,
       "pnl_pct": 9.13
     },
     {
@@ -1017,7 +1017,7 @@
       "name": "浪潮信息",
       "price": 93.47,
       "quantity": 100,
-      "amount": 9347.0,
+      "amount": 9347,
       "pnl_pct": 13.96
     },
     {
@@ -1026,9 +1026,9 @@
       "action": "BUY",
       "code": "000636",
       "name": "风华高科",
-      "price": 44.0,
+      "price": 44,
       "quantity": 300,
-      "amount": 13200.0
+      "amount": 13200
     },
     {
       "date": "2026-07-24",
@@ -1038,7 +1038,7 @@
       "name": "风华高科",
       "price": 40.8,
       "quantity": 300,
-      "amount": 12240.0,
+      "amount": 12240,
       "pnl_pct": -7.27
     },
     {
@@ -1049,10 +1049,10 @@
       "name": "海康威视",
       "price": 36.93,
       "quantity": 300,
-      "amount": 11079.0
+      "amount": 11079
     }
   ],
-  "last_check": "2026-07-27 09:28",
+  "last_check": "2026-07-27 10:00",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -1399,51 +1399,58 @@
     },
     {
       "date": "2026-07-17",
-      "total_value": 45487.0,
-      "market_value": 28180.0,
-      "cash": 17307.0,
+      "total_value": 45487,
+      "market_value": 28180,
+      "cash": 17307,
       "holdings_count": 2
     },
     {
       "date": "2026-07-20",
-      "total_value": 45825.0,
-      "market_value": 36720.0,
-      "cash": 9105.0,
+      "total_value": 45825,
+      "market_value": 36720,
+      "cash": 9105,
       "holdings_count": 3
     },
     {
       "date": "2026-07-21",
-      "total_value": 47956.0,
-      "market_value": 23846.0,
-      "cash": 24110.0,
+      "total_value": 47956,
+      "market_value": 23846,
+      "cash": 24110,
       "holdings_count": 2
     },
     {
       "date": "2026-07-22",
-      "total_value": 48196.0,
-      "market_value": 21910.0,
-      "cash": 26286.0,
+      "total_value": 48196,
+      "market_value": 21910,
+      "cash": 26286,
       "holdings_count": 2
     },
     {
       "date": "2026-07-23",
-      "total_value": 47479.0,
-      "market_value": 34393.0,
-      "cash": 13086.0,
+      "total_value": 47479,
+      "market_value": 34393,
+      "cash": 13086,
       "holdings_count": 3
     },
     {
       "date": "2026-07-24",
-      "total_value": 47102.0,
-      "market_value": 21776.0,
-      "cash": 25326.0,
+      "total_value": 47102,
+      "market_value": 21776,
+      "cash": 25326,
       "holdings_count": 2
     },
     {
       "date": "2026-07-27",
-      "total_value": 46754.0,
-      "market_value": 32507.0,
-      "cash": 14247.0,
+      "total_value": 46754,
+      "market_value": 32507,
+      "cash": 14247,
+      "holdings_count": 3
+    },
+    {
+      "date": "2026-07-27_1000",
+      "total_value": 46979,
+      "market_value": 32732,
+      "cash": 14247,
       "holdings_count": 3
     }
   ],
