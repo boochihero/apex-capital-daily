@@ -1,6 +1,6 @@
 {
   "initialized": "2026-04-23",
-  "cash": 19715.0,
+  "cash": 6907.0,
   "holdings": [
     {
       "code": "000100",
@@ -21,6 +21,16 @@
       "cost": 11260.0,
       "market_value": 11072.0,
       "close_price": 27.68
+    },
+    {
+      "code": "002185",
+      "name": "华天科技",
+      "buy_price": 16.01,
+      "quantity": 800,
+      "buy_date": "2026-07-31",
+      "cost": 12808.0,
+      "market_value": 12808.0,
+      "close_price": 16.01
     }
   ],
   "total_value": 44003.0,
@@ -1072,9 +1082,19 @@
       "price": 28.15,
       "quantity": 400,
       "amount": 11260.0
+    },
+    {
+      "date": "2026-07-31",
+      "time": "09:28",
+      "action": "BUY",
+      "code": "002185",
+      "name": "华天科技",
+      "price": 16.01,
+      "quantity": 800,
+      "amount": 12808.0
     }
   ],
-  "last_check": "2026-07-30 15:05",
+  "last_check": "2026-07-31 09:28",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -1488,6 +1508,13 @@
       "market_value": 24288.0,
       "cash": 19715.0,
       "holdings_count": 2
+    },
+    {
+      "date": "2026-07-31",
+      "total_value": 44003.0,
+      "market_value": 37096.0,
+      "cash": 6907.0,
+      "holdings_count": 3
     }
   ],
   "initial_capital": 50000
