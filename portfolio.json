@@ -1,41 +1,10 @@
 {
   "initialized": "2026-04-23",
-  "cash": 6907.0,
-  "holdings": [
-    {
-      "code": "000100",
-      "name": "TCL科技",
-      "buy_price": 4.99,
-      "quantity": 2800,
-      "buy_date": "2026-07-14",
-      "cost": 13972,
-      "close_price": 4.66,
-      "market_value": 13048.0
-    },
-    {
-      "code": "002558",
-      "name": "巨人网络",
-      "buy_price": 28.15,
-      "quantity": 400,
-      "buy_date": "2026-07-30",
-      "cost": 11260.0,
-      "market_value": 11592.0,
-      "close_price": 28.98
-    },
-    {
-      "code": "002185",
-      "name": "华天科技",
-      "buy_price": 16.01,
-      "quantity": 800,
-      "buy_date": "2026-07-31",
-      "cost": 12808.0,
-      "market_value": 12088.0,
-      "close_price": 15.11
-    }
-  ],
-  "total_value": 43635.0,
-  "total_pnl": -6365.0,
-  "total_pnl_pct": "-12.73%",
+  "cash": 44251.0,
+  "holdings": [],
+  "total_value": 44251.0,
+  "total_pnl": -5749.0,
+  "total_pnl_pct": "-11.50%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -1092,9 +1061,42 @@
       "price": 16.01,
       "quantity": 800,
       "amount": 12808.0
+    },
+    {
+      "date": "2026-08-03",
+      "time": "10:00",
+      "action": "SELL_STOP_LOSS",
+      "code": "000100",
+      "name": "TCL科技",
+      "price": 4.68,
+      "quantity": 2800,
+      "amount": 13104.0,
+      "pnl_pct": -6.21
+    },
+    {
+      "date": "2026-08-03",
+      "time": "10:00",
+      "action": "SELL_TAKE_PROFIT",
+      "code": "002558",
+      "name": "巨人网络",
+      "price": 30.7,
+      "quantity": 400,
+      "amount": 12280.0,
+      "pnl_pct": 9.06
+    },
+    {
+      "date": "2026-08-03",
+      "time": "10:00",
+      "action": "SELL_STOP_LOSS",
+      "code": "002185",
+      "name": "华天科技",
+      "price": 14.95,
+      "quantity": 800,
+      "amount": 11960.0,
+      "pnl_pct": -6.62
     }
   ],
-  "last_check": "2026-08-03 09:28",
+  "last_check": "2026-08-03 10:00",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -1518,10 +1520,10 @@
     },
     {
       "date": "2026-08-03",
-      "total_value": 43635.0,
-      "market_value": 36728.0,
-      "cash": 6907.0,
-      "holdings_count": 3
+      "total_value": 44251.0,
+      "market_value": 0,
+      "cash": 44251.0,
+      "holdings_count": 0
     }
   ],
   "initial_capital": 50000
