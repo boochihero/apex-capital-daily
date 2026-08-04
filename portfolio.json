@@ -1,10 +1,35 @@
 {
   "initialized": "2026-04-23",
-  "cash": 44251.0,
-  "holdings": [],
+  "cash": 9381.0,
+  "holdings": [
+    {
+      "code": "000815",
+      "name": "美利云",
+      "buy_price": 18.0,
+      "quantity": 700,
+      "buy_date": "2026-08-04",
+      "cost": 12600.0
+    },
+    {
+      "code": "000533",
+      "name": "顺钠股份",
+      "buy_price": 11.98,
+      "quantity": 1000,
+      "buy_date": "2026-08-04",
+      "cost": 11980.0
+    },
+    {
+      "code": "000811",
+      "name": "冰轮环境",
+      "buy_price": 34.3,
+      "quantity": 300,
+      "buy_date": "2026-08-04",
+      "cost": 10290.0
+    }
+  ],
   "total_value": 44251.0,
   "total_pnl": -5749.0,
-  "total_pnl_pct": "-11.50%",
+  "total_pnl_pct": "-11.5%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -1094,9 +1119,39 @@
       "quantity": 800,
       "amount": 11960.0,
       "pnl_pct": -6.62
+    },
+    {
+      "date": "2026-08-04",
+      "time": "09:28",
+      "action": "BUY",
+      "code": "000815",
+      "name": "美利云",
+      "price": 18.0,
+      "quantity": 700,
+      "amount": 12600.0
+    },
+    {
+      "date": "2026-08-04",
+      "time": "09:28",
+      "action": "BUY",
+      "code": "000533",
+      "name": "顺钠股份",
+      "price": 11.98,
+      "quantity": 1000,
+      "amount": 11980.0
+    },
+    {
+      "date": "2026-08-04",
+      "time": "09:28",
+      "action": "BUY",
+      "code": "000811",
+      "name": "冰轮环境",
+      "price": 34.3,
+      "quantity": 300,
+      "amount": 10290.0
     }
   ],
-  "last_check": "2026-08-03 10:00",
+  "last_check": "2026-08-04 09:28",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -1524,6 +1579,13 @@
       "market_value": 0,
       "cash": 44251.0,
       "holdings_count": 0
+    },
+    {
+      "date": "2026-08-04",
+      "total_value": 44251.0,
+      "market_value": 34870.0,
+      "cash": 9381.0,
+      "holdings_count": 3
     }
   ],
   "initial_capital": 50000
