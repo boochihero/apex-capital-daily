@@ -1157,7 +1157,7 @@
       "amount": 10290.0
     }
   ],
-  "last_check": "2026-08-04 14:30",
+  "last_check": "2026-08-04 15:05",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -1588,8 +1588,8 @@
     },
     {
       "date": "2026-08-04",
-      "total_value": 45084.0,
-      "market_value": 35703.0,
+      "total_value": 45604.0,
+      "market_value": 36223.0,
       "cash": 9381.0,
       "holdings_count": 3
     }
