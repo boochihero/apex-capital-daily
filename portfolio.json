@@ -9,8 +9,8 @@
       "quantity": 700,
       "buy_date": "2026-08-04",
       "cost": 12600.0,
-      "close_price": 18.9,
-      "market_value": 13230.0
+      "close_price": 18.77,
+      "market_value": 13139.0
     },
     {
       "code": "000533",
@@ -19,13 +19,13 @@
       "quantity": 1000,
       "buy_date": "2026-08-04",
       "cost": 11980.0,
-      "close_price": 12.77,
-      "market_value": 12770.0
+      "close_price": 12.62,
+      "market_value": 12620.0
     }
   ],
-  "total_value": 47015.0,
-  "total_pnl": -2985.0,
-  "total_pnl_pct": "-5.97%",
+  "total_value": 46774.0,
+  "total_pnl": -3226.0,
+  "total_pnl_pct": "-6.45%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -1158,7 +1158,7 @@
       "pnl_pct": 13.06
     }
   ],
-  "last_check": "2026-08-05 09:33",
+  "last_check": "2026-08-05 14:30",
   "equity_history": [
     {
       "date": "2026-05-08",
@@ -1596,10 +1596,10 @@
     },
     {
       "date": "2026-08-05",
-      "total_value": 46643.0,
-      "market_value": 37262.0,
-      "cash": 9381.0,
-      "holdings_count": 3
+      "total_value": 46774.0,
+      "market_value": 25759.0,
+      "cash": 21015.0,
+      "holdings_count": 2
     }
   ],
   "initial_capital": 50000
