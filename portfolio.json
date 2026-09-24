@@ -1,32 +1,29 @@
 {
   "initialized": "2026-04-23",
-  "cash": 10743.0,
+  "cash": 23244.0,
   "holdings": [
     {
       "code": "002119",
       "name": "康强电子",
       "buy_price": 28.52,
       "quantity": 400,
-      "cost": 11408.0
-    },
-    {
-      "code": "002365",
-      "name": "永安药业",
-      "buy_price": 14.78,
-      "quantity": 900,
-      "cost": 13302.0
+      "cost": 11408.0,
+      "close_price": 28.2,
+      "market_value": 11280.0
     },
     {
       "code": "600415",
       "name": "小商品城",
       "buy_price": 11.02,
       "quantity": 1000,
-      "cost": 11020.0
+      "cost": 11020.0,
+      "close_price": 10.95,
+      "market_value": 10950.0
     }
   ],
-  "total_value": 46473.0,
-  "total_pnl": -3527.0,
-  "total_pnl_pct": "-7.05%",
+  "total_value": 45474.0,
+  "total_pnl": -4526.0,
+  "total_pnl_pct": "-9.05%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -1231,13 +1228,24 @@
       "price": 11.02,
       "quantity": 1000,
       "amount": 11020.0
+    },
+    {
+      "date": "2026-09-24",
+      "time": "10:00",
+      "action": "SELL_STOP_LOSS",
+      "code": "002365",
+      "name": "永安药业",
+      "price": 13.89,
+      "quantity": 900,
+      "amount": 12501.0,
+      "pnl_pct": -6.02
     }
   ],
   "last_check": {
     "date": "2026-09-24",
-    "time": "09:28",
-    "market_value": 35730.0,
-    "total_value": 46473.0
+    "time": "10:00",
+    "market_value": 22230.0,
+    "total_value": 45474.0
   },
   "equity_history": [
     {
@@ -1704,11 +1712,12 @@
     },
     {
       "date": "2026-09-24",
-      "total_value": 46473.0,
-      "market_value": 35730.0,
-      "cash": 10743.0,
-      "holdings_count": 3
+      "total_value": 45474.0,
+      "market_value": 22230.0,
+      "cash": 23244.0,
+      "holdings_count": 2
     }
   ],
-  "initial_capital": 50000
+  "initial_capital": 50000,
+  "market_value": 22230.0
 }
