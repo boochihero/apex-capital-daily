@@ -1,6 +1,6 @@
 {
   "initialized": "2026-04-23",
-  "cash": 11468.0,
+  "cash": 24612.0,
   "holdings": [
     {
       "code": "002119",
@@ -8,8 +8,8 @@
       "buy_price": 28.52,
       "quantity": 400,
       "cost": 11408.0,
-      "close_price": 29.07,
-      "market_value": 11628.0
+      "close_price": 29.27,
+      "market_value": 11708.0
     },
     {
       "code": "600415",
@@ -17,22 +17,13 @@
       "buy_price": 11.02,
       "quantity": 1000,
       "cost": 11020.0,
-      "close_price": 10.86,
-      "market_value": 10860.0
-    },
-    {
-      "code": "000513",
-      "name": "丽珠集团",
-      "buy_price": 29.44,
-      "quantity": 400,
-      "cost": 11776.0,
-      "close_price": 31.0,
-      "market_value": 12400.0
+      "close_price": 10.84,
+      "market_value": 10840.0
     }
   ],
-  "total_value": 46356.0,
-  "total_pnl": -3644.0,
-  "total_pnl_pct": "-7.29%",
+  "total_value": 47160.0,
+  "total_pnl": -2840.0,
+  "total_pnl_pct": "-5.68%",
   "rules": {
     "max_position_pct": 0.3,
     "max_holdings": 3,
@@ -1259,13 +1250,24 @@
       "quantity": 400,
       "amount": 11776.0,
       "note": "医药主线共振，PE 15.6估值合理，主力净流入559万居前。"
+    },
+    {
+      "date": "2026-09-29",
+      "time": "10:00",
+      "action": "SELL_TAKE_PROFIT",
+      "code": "000513",
+      "name": "丽珠集团",
+      "price": 32.86,
+      "quantity": 400,
+      "amount": 13144.0,
+      "pnl_pct": 11.62
     }
   ],
   "last_check": {
     "date": "2026-09-29",
-    "time": "09:28",
-    "market_value": 34888.0,
-    "total_value": 46356.0
+    "time": "10:00",
+    "market_value": 22548.0,
+    "total_value": 47160.0
   },
   "equity_history": [
     {
@@ -1746,12 +1748,12 @@
     },
     {
       "date": "2026-09-29",
-      "total_value": 46356.0,
-      "market_value": 34888.0,
-      "cash": 11468.0,
-      "holdings_count": 3
+      "total_value": 47160.0,
+      "market_value": 22548.0,
+      "cash": 24612.0,
+      "holdings_count": 2
     }
   ],
   "initial_capital": 50000,
-  "market_value": 34888.0
+  "market_value": 22548.0
 }
